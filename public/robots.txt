@@ -1,0 +1,16 @@
+# VantumERP Robots.txt
+# https://vantumerp.com
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://vantumerp.com/sitemap.xml
+
+# Crawl-delay for politeness
+Crawl-delay: 1
+
+# Block unnecessary paths
+Disallow: /api/
+Disallow: /_next/
+Disallow: /private/
