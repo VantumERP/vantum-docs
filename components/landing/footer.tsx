@@ -42,18 +42,38 @@ export function SiteFooter() {
               Product
             </h4>
             <ul className="space-y-3">
-              {["Inventory", "Purchasing", "Sales", "Replenishment"].map(
-                (item) => (
-                  <li key={item}>
-                    <Link
-                      href="#product"
-                      className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-                    >
-                      {item}
-                    </Link>
-                  </li>
-                ),
-              )}
+              <li>
+                <Link
+                  href="#product"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  Inventory
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="#product"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  Purchasing
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="#product"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  Sales
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="#product"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  Replenishment
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -63,16 +83,46 @@ export function SiteFooter() {
               Company
             </h4>
             <ul className="space-y-3">
-              {["About", "Blog", "Careers", "Contact"].map((item) => (
-                <li key={item}>
-                  <Link
-                    href="#"
-                    className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-                  >
-                    {item}
-                  </Link>
-                </li>
-              ))}
+              <li>
+                <Link
+                  href="https://www.actaer.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  About Actaer
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="https://www.linkedin.com/company/actaer"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  LinkedIn
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="https://x.com/ActaerCo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  X (Twitter)
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="https://github.com/Actaer"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  GitHub
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -82,18 +132,24 @@ export function SiteFooter() {
               Legal
             </h4>
             <ul className="space-y-3">
-              {["Privacy Policy", "Terms of Service", "Security"].map(
-                (item) => (
-                  <li key={item}>
-                    <Link
-                      href="#"
-                      className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-                    >
-                      {item}
-                    </Link>
-                  </li>
-                ),
-              )}
+              <li>
+                <span className="text-sm text-muted-foreground/50 cursor-not-allowed">
+                  Privacy Policy
+                </span>
+              </li>
+              <li>
+                <span className="text-sm text-muted-foreground/50 cursor-not-allowed">
+                  Terms of Service
+                </span>
+              </li>
+              <li>
+                <Link
+                  href="#security"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  Security
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

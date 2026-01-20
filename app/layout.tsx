@@ -23,7 +23,7 @@ const siteConfig = {
   description:
     "Distribution ERP without the legacy baggage. Inventory, Purchasing, Sales, and Replenishment unified in one modern platform. Built by Actaer for enterprises that refuse to compromise on software quality.",
   url: "https://vantumerp.com",
-  ogImage: "/assets/og-image.png",
+  ogImage: "/assets/logo.png",
   creator: "Actaer",
   creatorUrl: "https://www.actaer.com",
 };
