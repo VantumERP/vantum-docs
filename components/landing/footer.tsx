@@ -114,7 +114,9 @@ export function SiteFooter() {
           </p>
           <div className="flex items-center gap-6">
             <Link
-              href="#"
+              href="https://x.com/ActaerCo"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
               <svg
@@ -127,7 +129,9 @@ export function SiteFooter() {
               </svg>
             </Link>
             <Link
-              href="#"
+              href="https://github.com/Actaer"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
               <svg
@@ -144,7 +148,9 @@ export function SiteFooter() {
               </svg>
             </Link>
             <Link
-              href="#"
+              href="https://www.linkedin.com/company/actaer"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
               <svg
