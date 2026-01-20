@@ -1,0 +1,209 @@
+{
+  "metadata": {
+    "title": "VantumERP - ERP de Distribuição Moderno para Empresas",
+    "description": "ERP de distribuição sem a bagagem legada. Estoque, Compras, Vendas e Reabastecimento unificados em uma plataforma moderna. Desenvolvido pela Actaer para empresas que não comprometem a qualidade do software."
+  },
+  "nav": {
+    "product": "Produto",
+    "enterprise": "Empresa",
+    "aboutActaer": "Sobre a Actaer",
+    "getEarlyAccess": "Acesso antecipado",
+    "toggleMenu": "Alternar menu",
+    "features": "Recursos",
+    "modules": "Módulos",
+    "docs": "Documentação",
+    "blog": "Blog",
+    "joinWaitlist": "Entrar na lista de espera"
+  },
+  "hero": {
+    "badge": "Aceitando parceiros piloto para 2026",
+    "titleLine1": "ERP de distribuição",
+    "titleLine2": "sem a bagagem legada.",
+    "description": "Estoque, Compras, Vendas e Reabastecimento—unificados em uma plataforma moderna. Construído para empresas que não comprometem a qualidade do software.",
+    "requestAccess": "Solicitar acesso antecipado",
+    "designedFor": "Projetado para empresas focadas em distribuição",
+    "wholesalers": "Atacadistas",
+    "distributors": "Distribuidores",
+    "retailChains": "Redes de varejo",
+    "thirdPartyLogistics": "Provedores 3PL"
+  },
+  "modules": {
+    "sectionLabel": "Módulos principais",
+    "title": "Quatro pilares. Um sistema unificado.",
+    "description": "Cada módulo é projetado para funcionar de forma independente—mas juntos, eles criam uma potência operacional.",
+    "inventory": {
+      "title": "Gestão de estoque",
+      "description": "Visibilidade de estoque em tempo real em armazéns e locais ilimitados. Rastreie cada SKU com precisão—da recepção à prateleira ao cliente.",
+      "tags": {
+        "multiWarehouse": "Multi-armazém",
+        "lotTracking": "Rastreamento de lotes",
+        "serialNumbers": "Números de série",
+        "binLocations": "Locais de bin"
+      }
+    },
+    "sales": {
+      "title": "Pedidos de venda",
+      "description": "Fluxo de cotação a recebimento com verificações de disponibilidade em tempo real. Reserva automática de estoque na confirmação do pedido."
+    },
+    "purchasing": {
+      "title": "Compras",
+      "description": "Gestão de fornecedores com automação de pedidos de compra. Rastreie prazos de entrega, custos e recebimentos—tudo em um só lugar."
+    },
+    "replenishment": {
+      "title": "Reabastecimento inteligente",
+      "description": "Cálculos de ponto de reposição assistidos por IA. Gere pedidos de compra automaticamente com base na velocidade de vendas, prazos de entrega e níveis de estoque de segurança.",
+      "analyze": "Analisar",
+      "suggest": "Sugerir",
+      "optimize": "Otimizar"
+    }
+  },
+  "metrics": {
+    "implementation": {
+      "value": "10x",
+      "label": "Implementação mais rápida",
+      "description": "vs ERP tradicional"
+    },
+    "api": {
+      "value": "100%",
+      "label": "Cobertura API",
+      "description": "Cada recurso acessível"
+    },
+    "fees": {
+      "value": "0",
+      "label": "Taxas ocultas",
+      "description": "Preços transparentes"
+    },
+    "users": {
+      "value": "∞",
+      "label": "Usuários",
+      "description": "Sem licenciamento por usuário"
+    }
+  },
+  "whyVantum": {
+    "sectionLabel": "A diferença Vantum",
+    "title": "ERP sem a bagagem empresarial.",
+    "description": "ERPs legados foram construídos para uma era diferente. Estamos construindo para empresas que esperam que o software simplesmente funcione.",
+    "legacyERP": "ERP legado",
+    "vantumERP": "VantumERP",
+    "comparison": {
+      "implementation": {
+        "legacy": "Implementações de 6-18 meses",
+        "vantum": "Semanas, não meses"
+      },
+      "pricing": {
+        "legacy": "Licenciamento por usuário que escala contra você",
+        "vantum": "Preços previsíveis que escalam com você"
+      },
+      "changes": {
+        "legacy": "Consultores necessários para cada mudança",
+        "vantum": "Configuração de autoatendimento"
+      },
+      "ux": {
+        "legacy": "UX de uma década atrás com curvas de aprendizado íngremes",
+        "vantum": "Interface moderna que sua equipe realmente usará"
+      },
+      "architecture": {
+        "legacy": "Arquitetura monolítica, atualizações lentas",
+        "vantum": "Design modular, implantação contínua"
+      }
+    },
+    "quote": "Construímos o Vantum porque estávamos cansados de explicar por que",
+    "quoteContinued": "o software empresarial tem que ser tão doloroso.",
+    "quoteAuthor": "— A equipe Vantum"
+  },
+  "trust": {
+    "sectionLabel": "Pronto para empresas",
+    "title": "Construído em fundações nas quais você pode confiar.",
+    "description": "Segurança, desempenho e confiabilidade não são recursos—são requisitos. Nós os incorporamos em cada camada.",
+    "capabilities": {
+      "security": {
+        "title": "Segurança empresarial",
+        "description": "Controle de acesso baseado em funções, registro de auditoria e criptografia em repouso e em trânsito."
+      },
+      "architecture": {
+        "title": "Arquitetura moderna",
+        "description": "Construído em .NET 10 e React 19 com padrões orientados a eventos e CQRS."
+      },
+      "performance": {
+        "title": "Desempenho primeiro",
+        "description": "Tempos de resposta abaixo de um segundo mesmo com milhões de transações."
+      },
+      "sovereignty": {
+        "title": "Soberania de dados",
+        "description": "Implante em sua infraestrutura ou em nossa nuvem gerenciada. Seus dados, suas regras."
+      },
+      "api": {
+        "title": "API completa",
+        "description": "Cada recurso disponível via API REST. Construa integrações nos seus termos."
+      },
+      "database": {
+        "title": "PostgreSQL nativo",
+        "description": "Banco de dados testado em batalha com confiabilidade e escalabilidade comprovadas."
+      }
+    },
+    "poweredBy": "Alimentado por"
+  },
+  "cta": {
+    "pilotBadge": "Programa piloto limitado",
+    "title": "Pronto para modernizar suas",
+    "titleLine2": "operações de distribuição?",
+    "description": "Estamos aceitando um grupo seleto de empresas para nosso programa piloto 2026. Obtenha acesso antecipado, suporte prioritário e molde o roadmap do produto.",
+    "benefits": {
+      "onboarding": "Onboarding prioritário",
+      "engineering": "Acesso direto à engenharia",
+      "pricing": "Preços preferenciais"
+    },
+    "requestAccess": "Solicitar acesso antecipado",
+    "noCommitment": "Sem compromisso necessário. Entraremos em contato em 24 horas."
+  },
+  "earlyAccessModal": {
+    "title": "Solicitar acesso antecipado",
+    "description": "Junte-se ao nosso programa piloto. Entraremos em contato em 24 horas.",
+    "successTitle": "Solicitação recebida!",
+    "successMessage": "Obrigado pelo seu interesse. Entraremos em contato em breve.",
+    "form": {
+      "fullName": "Nome completo",
+      "fullNamePlaceholder": "João Silva",
+      "businessEmail": "Email comercial",
+      "businessEmailPlaceholder": "joao@empresa.com.br",
+      "companyName": "Nome da empresa",
+      "companyNamePlaceholder": "Empresa Ltda.",
+      "employees": "Número de funcionários",
+      "employeesPlaceholder": "Selecionar...",
+      "employeesLessThan50": "< 50",
+      "employees50To200": "50 - 200",
+      "employeesMoreThan200": "200+",
+      "submitRequest": "Enviar solicitação"
+    }
+  },
+  "footer": {
+    "tagline": "ERP de distribuição para empresas modernas. Construído com cuidado.",
+    "productBy": "Um produto da",
+    "product": "Produto",
+    "inventory": "Estoque",
+    "purchasing": "Compras",
+    "sales": "Vendas",
+    "replenishment": "Reabastecimento",
+    "company": "Empresa",
+    "aboutActaer": "Sobre a Actaer",
+    "legal": "Legal",
+    "privacyPolicy": "Política de privacidade",
+    "termsOfService": "Termos de serviço",
+    "security": "Segurança",
+    "copyright": "© {year} VantumERP. Todos os direitos reservados.",
+    "builtBy": "Construído com",
+    "byActaer": "pela Actaer",
+    "resources": "Recursos",
+    "documentation": "Documentação",
+    "blog": "Blog",
+    "faq": "Perguntas frequentes",
+    "features": "Recursos",
+    "modules": "Módulos",
+    "releaseNotes": "Notas de versão",
+    "erpForScale": "ERP de distribuição empresarial construído para escalar."
+  },
+  "languageSwitcher": {
+    "label": "Idioma",
+    "selectLanguage": "Selecionar idioma"
+  }
+}

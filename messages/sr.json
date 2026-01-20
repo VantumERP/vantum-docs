@@ -1,0 +1,209 @@
+{
+  "metadata": {
+    "title": "VantumERP - Moderni ERP za distribuciju za preduzeća",
+    "description": "ERP za distribuciju bez nasleđenog tereta. Zalihe, Nabavka, Prodaja i Dopuna ujedinjeni u jednoj modernoj platformi. Napravio Actaer za preduzeća koja ne prave kompromise u kvalitetu softvera."
+  },
+  "nav": {
+    "product": "Proizvod",
+    "enterprise": "Preduzeće",
+    "aboutActaer": "O Actaer-u",
+    "getEarlyAccess": "Rani pristup",
+    "toggleMenu": "Prebaci meni",
+    "features": "Funkcije",
+    "modules": "Moduli",
+    "docs": "Dokumentacija",
+    "blog": "Blog",
+    "joinWaitlist": "Pridruži se listi čekanja"
+  },
+  "hero": {
+    "badge": "Prihvatamo pilot partnere za 2026",
+    "titleLine1": "ERP za distribuciju",
+    "titleLine2": "bez nasleđenog tereta.",
+    "description": "Zalihe, Nabavka, Prodaja i Dopuna—ujedinjeni u jednoj modernoj platformi. Napravljeno za preduzeća koja ne prave kompromise u kvalitetu softvera.",
+    "requestAccess": "Zatražite rani pristup",
+    "designedFor": "Dizajnirano za preduzeća fokusirana na distribuciju",
+    "wholesalers": "Veleprodaja",
+    "distributors": "Distributeri",
+    "retailChains": "Maloprodajni lanci",
+    "thirdPartyLogistics": "3PL provajderi"
+  },
+  "modules": {
+    "sectionLabel": "Osnovni moduli",
+    "title": "Četiri stuba. Jedan ujedinjen sistem.",
+    "description": "Svaki modul je dizajniran da radi nezavisno—ali zajedno, stvaraju operativnu snagu.",
+    "inventory": {
+      "title": "Upravljanje zalihama",
+      "description": "Vidljivost zaliha u realnom vremenu u neograničenom broju skladišta i lokacija. Pratite svaki artikal sa preciznošću—od prijema do police do kupca.",
+      "tags": {
+        "multiWarehouse": "Više skladišta",
+        "lotTracking": "Praćenje serija",
+        "serialNumbers": "Serijski brojevi",
+        "binLocations": "Lokacije polica"
+      }
+    },
+    "sales": {
+      "title": "Prodajni nalozi",
+      "description": "Tok od ponude do naplate sa proverom dostupnosti u realnom vremenu. Automatska rezervacija zaliha pri potvrdi narudžbine."
+    },
+    "purchasing": {
+      "title": "Nabavka",
+      "description": "Upravljanje dobavljačima sa automatizacijom narudžbenica. Pratite rokove isporuke, troškove i prijem—sve na jednom mestu."
+    },
+    "replenishment": {
+      "title": "Pametna dopuna",
+      "description": "Proračuni tačke ponovnog naručivanja uz pomoć veštačke inteligencije. Automatski generišite narudžbenice na osnovu brzine prodaje, rokova isporuke i sigurnosnih zaliha.",
+      "analyze": "Analiziraj",
+      "suggest": "Predloži",
+      "optimize": "Optimizuj"
+    }
+  },
+  "metrics": {
+    "implementation": {
+      "value": "10x",
+      "label": "Brža implementacija",
+      "description": "u odnosu na tradicionalni ERP"
+    },
+    "api": {
+      "value": "100%",
+      "label": "API pokrivenost",
+      "description": "Svaka funkcija dostupna"
+    },
+    "fees": {
+      "value": "0",
+      "label": "Skrivenih naknada",
+      "description": "Transparentne cene"
+    },
+    "users": {
+      "value": "∞",
+      "label": "Korisnika",
+      "description": "Bez licenciranja po korisniku"
+    }
+  },
+  "whyVantum": {
+    "sectionLabel": "Vantum razlika",
+    "title": "ERP bez korporativnog tereta.",
+    "description": "Nasleđeni ERP sistemi su napravljeni za drugačiju eru. Mi gradimo za kompanije koje očekuju da softver jednostavno radi.",
+    "legacyERP": "Nasleđeni ERP",
+    "vantumERP": "VantumERP",
+    "comparison": {
+      "implementation": {
+        "legacy": "Implementacije od 6-18 meseci",
+        "vantum": "Nedelje, ne meseci"
+      },
+      "pricing": {
+        "legacy": "Licenciranje po korisniku koje raste protiv vas",
+        "vantum": "Predvidive cene koje rastu sa vama"
+      },
+      "changes": {
+        "legacy": "Konsultanti potrebni za svaku promenu",
+        "vantum": "Samouslužna konfiguracija"
+      },
+      "ux": {
+        "legacy": "Desetogodišnji korisnički interfejs sa strmim krivuljama učenja",
+        "vantum": "Moderan interfejs koji će vaš tim zaista koristiti"
+      },
+      "architecture": {
+        "legacy": "Monolitna arhitektura, spore nadogradnje",
+        "vantum": "Modularni dizajn, kontinuirana implementacija"
+      }
+    },
+    "quote": "Napravili smo Vantum jer smo se umorili od objašnjavanja zašto",
+    "quoteContinued": "korporativni softver mora biti ovako bolan.",
+    "quoteAuthor": "— Vantum tim"
+  },
+  "trust": {
+    "sectionLabel": "Spremno za preduzeća",
+    "title": "Izgrađeno na temeljima kojima možete verovati.",
+    "description": "Bezbednost, performanse i pouzdanost nisu funkcije—to su zahtevi. Ugradili smo ih u svaki sloj.",
+    "capabilities": {
+      "security": {
+        "title": "Korporativna bezbednost",
+        "description": "Kontrola pristupa zasnovana na ulogama, evidentiranje revizija i enkripcija u mirovanju i tranzitu."
+      },
+      "architecture": {
+        "title": "Moderna arhitektura",
+        "description": "Izgrađeno na .NET 10 i React 19 sa obrascima vođenim događajima i CQRS."
+      },
+      "performance": {
+        "title": "Performanse na prvom mestu",
+        "description": "Vreme odziva ispod sekunde čak i sa milionima transakcija."
+      },
+      "sovereignty": {
+        "title": "Suverenitet podataka",
+        "description": "Implementirajte na vašoj infrastrukturi ili našem upravljanom oblaku. Vaši podaci, vaša pravila."
+      },
+      "api": {
+        "title": "Kompletan API",
+        "description": "Svaka funkcija dostupna preko REST API-ja. Gradite integracije po vašim uslovima."
+      },
+      "database": {
+        "title": "PostgreSQL nativno",
+        "description": "Borbom testirana baza podataka sa dokazanom pouzdanošću i skalabilnošću."
+      }
+    },
+    "poweredBy": "Pokreće"
+  },
+  "cta": {
+    "pilotBadge": "Ograničen pilot program",
+    "title": "Spremni da modernizujete vaše",
+    "titleLine2": "distributivne operacije?",
+    "description": "Prihvatamo odabranu grupu preduzeća za naš pilot program 2026. Dobijte rani pristup, prioritetnu podršku i oblikujte plan proizvoda.",
+    "benefits": {
+      "onboarding": "Prioritetno uvođenje",
+      "engineering": "Direktan pristup inženjerima",
+      "pricing": "Povlašćene cene"
+    },
+    "requestAccess": "Zatražite rani pristup",
+    "noCommitment": "Nije potrebna obaveza. Javićemo vam se u roku od 24 sata."
+  },
+  "earlyAccessModal": {
+    "title": "Zatražite rani pristup",
+    "description": "Pridružite se našem pilot programu. Javićemo vam se u roku od 24 sata.",
+    "successTitle": "Zahtev primljen!",
+    "successMessage": "Hvala vam na interesovanju. Uskoro ćemo vam se javiti.",
+    "form": {
+      "fullName": "Puno ime",
+      "fullNamePlaceholder": "Petar Petrović",
+      "businessEmail": "Poslovni email",
+      "businessEmailPlaceholder": "petar@kompanija.rs",
+      "companyName": "Naziv kompanije",
+      "companyNamePlaceholder": "Kompanija d.o.o.",
+      "employees": "Broj zaposlenih",
+      "employeesPlaceholder": "Izaberite...",
+      "employeesLessThan50": "< 50",
+      "employees50To200": "50 - 200",
+      "employeesMoreThan200": "200+",
+      "submitRequest": "Pošaljite zahtev"
+    }
+  },
+  "footer": {
+    "tagline": "ERP za distribuciju za moderna preduzeća. Napravljen sa pažnjom.",
+    "productBy": "Proizvod kompanije",
+    "product": "Proizvod",
+    "inventory": "Zalihe",
+    "purchasing": "Nabavka",
+    "sales": "Prodaja",
+    "replenishment": "Dopuna",
+    "company": "Kompanija",
+    "aboutActaer": "O Actaer-u",
+    "legal": "Pravno",
+    "privacyPolicy": "Politika privatnosti",
+    "termsOfService": "Uslovi korišćenja",
+    "security": "Bezbednost",
+    "copyright": "© {year} VantumERP. Sva prava zadržana.",
+    "builtBy": "Napravljeno sa",
+    "byActaer": "od strane Actaer-a",
+    "resources": "Resursi",
+    "documentation": "Dokumentacija",
+    "blog": "Blog",
+    "faq": "Česta pitanja",
+    "features": "Funkcije",
+    "modules": "Moduli",
+    "releaseNotes": "Beleške o izdanju",
+    "erpForScale": "ERP za distribuciju napravljen za skaliranje."
+  },
+  "languageSwitcher": {
+    "label": "Jezik",
+    "selectLanguage": "Izaberite jezik"
+  }
+}

@@ -1,22 +1,25 @@
 "use client";
 
 import * as React from "react";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
 import { ModeToggle } from "@/components/mode-toggle";
-import { EarlyAccessModal } from "@/components/landing/cta";
-
-const navLinks = [
-  { href: "#product", label: "Product" },
-  { href: "#security", label: "Enterprise" },
-  { href: "https://www.actaer.com", label: "About Actaer", external: true },
-];
+import { LanguageSwitcher } from "@/components/language-switcher";
+import { useTranslations } from "next-intl";
+import { EarlyAccessModal } from "./cta";
 
 export function SiteHeader() {
+  const t = useTranslations("nav");
   const [isScrolled, setIsScrolled] = React.useState(false);
+
+  const navLinks = [
+    { href: "#product", label: t("product") },
+    { href: "#security", label: t("enterprise") },
+    { href: "https://www.actaer.com", label: t("aboutActaer"), external: true },
+  ];
 
   React.useEffect(() => {
     const handleScroll = () => {
@@ -52,38 +55,49 @@ export function SiteHeader() {
 
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center gap-1">
-            {navLinks.map((link) => (
-              <Link
-                key={link.label}
-                href={link.href}
-                {...(link.external
-                  ? { target: "_blank", rel: "noopener noreferrer" }
-                  : {})}
-                className="px-4 py-2 text-sm font-medium text-muted-foreground hover:text-foreground transition-colors rounded-lg hover:bg-muted/50"
-              >
-                {link.label}
-              </Link>
-            ))}
+            {navLinks.map((link) =>
+              link.external ? (
+                <a
+                  key={link.label}
+                  href={link.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-4 py-2 text-sm font-medium text-muted-foreground hover:text-foreground transition-colors rounded-lg hover:bg-muted/50"
+                >
+                  {link.label}
+                </a>
+              ) : (
+                <Link
+                  key={link.label}
+                  href={link.href}
+                  className="px-4 py-2 text-sm font-medium text-muted-foreground hover:text-foreground transition-colors rounded-lg hover:bg-muted/50"
+                >
+                  {link.label}
+                </Link>
+              ),
+            )}
           </nav>
 
           {/* Desktop CTA */}
           <div className="hidden md:flex items-center gap-3">
+            <LanguageSwitcher />
             <ModeToggle />
             <EarlyAccessModal>
               <Button size="sm" className="font-medium shadow-sm">
-                Get Early Access
+                {t("getEarlyAccess")}
               </Button>
             </EarlyAccessModal>
           </div>
 
           {/* Mobile Menu */}
           <div className="md:hidden flex items-center gap-2">
+            <LanguageSwitcher />
             <ModeToggle />
             <Sheet>
               <SheetTrigger asChild>
                 <Button variant="ghost" size="icon" className="h-9 w-9">
                   <Menu className="h-5 w-5" />
-                  <span className="sr-only">Toggle menu</span>
+                  <span className="sr-only">{t("toggleMenu")}</span>
                 </Button>
               </SheetTrigger>
               <SheetContent side="right" className="w-75 sm:w-87.5">
@@ -101,23 +115,32 @@ export function SiteHeader() {
                     </span>
                   </div>
                   <nav className="flex flex-col gap-1">
-                    {navLinks.map((link) => (
-                      <Link
-                        key={link.label}
-                        href={link.href}
-                        {...(link.external
-                          ? { target: "_blank", rel: "noopener noreferrer" }
-                          : {})}
-                        className="px-4 py-3 text-base font-medium text-muted-foreground hover:text-foreground hover:bg-muted/50 rounded-lg transition-colors"
-                      >
-                        {link.label}
-                      </Link>
-                    ))}
+                    {navLinks.map((link) =>
+                      link.external ? (
+                        <a
+                          key={link.label}
+                          href={link.href}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="px-4 py-3 text-base font-medium text-muted-foreground hover:text-foreground hover:bg-muted/50 rounded-lg transition-colors"
+                        >
+                          {link.label}
+                        </a>
+                      ) : (
+                        <Link
+                          key={link.label}
+                          href={link.href}
+                          className="px-4 py-3 text-base font-medium text-muted-foreground hover:text-foreground hover:bg-muted/50 rounded-lg transition-colors"
+                        >
+                          {link.label}
+                        </Link>
+                      ),
+                    )}
                   </nav>
                   <div className="mt-auto pt-8 border-t border-border">
                     <EarlyAccessModal>
                       <Button className="w-full font-medium">
-                        Get Early Access
+                        {t("getEarlyAccess")}
                       </Button>
                     </EarlyAccessModal>
                   </div>

@@ -1,31 +1,34 @@
 "use client";
 
 import { motion } from "framer-motion";
-
-const metrics = [
-  {
-    value: "10x",
-    label: "Faster implementation",
-    description: "vs traditional ERP",
-  },
-  {
-    value: "100%",
-    label: "API coverage",
-    description: "Every feature accessible",
-  },
-  {
-    value: "0",
-    label: "Hidden fees",
-    description: "Transparent pricing",
-  },
-  {
-    value: "∞",
-    label: "Users",
-    description: "No per-seat licensing",
-  },
-];
+import { useTranslations } from "next-intl";
 
 export function MetricsSection() {
+  const t = useTranslations("metrics");
+
+  const metrics = [
+    {
+      value: t("implementation.value"),
+      label: t("implementation.label"),
+      description: t("implementation.description"),
+    },
+    {
+      value: t("api.value"),
+      label: t("api.label"),
+      description: t("api.description"),
+    },
+    {
+      value: t("fees.value"),
+      label: t("fees.label"),
+      description: t("fees.description"),
+    },
+    {
+      value: t("users.value"),
+      label: t("users.label"),
+      description: t("users.description"),
+    },
+  ];
+
   return (
     <section className="py-20 bg-background border-y border-border/50">
       <div className="container mx-auto px-4">

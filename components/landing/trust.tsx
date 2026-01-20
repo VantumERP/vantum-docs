@@ -2,47 +2,44 @@
 
 import { motion } from "framer-motion";
 import { ShieldCheck, Cpu, Zap, Lock, Code2, Database } from "lucide-react";
-
-const capabilities = [
-  {
-    icon: ShieldCheck,
-    title: "Enterprise Security",
-    description:
-      "Role-based access control, audit logging, and encryption at rest and in transit.",
-  },
-  {
-    icon: Cpu,
-    title: "Modern Architecture",
-    description:
-      "Built on .NET 10 and React 19 with event-driven patterns and CQRS.",
-  },
-  {
-    icon: Zap,
-    title: "Performance First",
-    description:
-      "Sub-second response times even with millions of transactions.",
-  },
-  {
-    icon: Lock,
-    title: "Data Sovereignty",
-    description:
-      "Deploy on your infrastructure or our managed cloud. Your data, your rules.",
-  },
-  {
-    icon: Code2,
-    title: "API Complete",
-    description:
-      "Every feature available via REST API. Build integrations on your terms.",
-  },
-  {
-    icon: Database,
-    title: "PostgreSQL Native",
-    description:
-      "Battle-tested database with proven reliability and scalability.",
-  },
-];
+import { useTranslations } from "next-intl";
 
 export function TrustSection() {
+  const t = useTranslations("trust");
+
+  const capabilities = [
+    {
+      icon: ShieldCheck,
+      title: t("capabilities.security.title"),
+      description: t("capabilities.security.description"),
+    },
+    {
+      icon: Cpu,
+      title: t("capabilities.architecture.title"),
+      description: t("capabilities.architecture.description"),
+    },
+    {
+      icon: Zap,
+      title: t("capabilities.performance.title"),
+      description: t("capabilities.performance.description"),
+    },
+    {
+      icon: Lock,
+      title: t("capabilities.sovereignty.title"),
+      description: t("capabilities.sovereignty.description"),
+    },
+    {
+      icon: Code2,
+      title: t("capabilities.api.title"),
+      description: t("capabilities.api.description"),
+    },
+    {
+      icon: Database,
+      title: t("capabilities.database.title"),
+      description: t("capabilities.database.description"),
+    },
+  ];
+
   return (
     <section id="security" className="py-24 md:py-32 bg-background">
       <div className="container mx-auto px-4">
@@ -55,7 +52,7 @@ export function TrustSection() {
               viewport={{ once: true }}
               className="text-sm font-semibold text-primary uppercase tracking-wider"
             >
-              Enterprise Ready
+              {t("sectionLabel")}
             </motion.span>
             <motion.h2
               initial={{ opacity: 0, y: 10 }}
@@ -64,7 +61,7 @@ export function TrustSection() {
               transition={{ delay: 0.1 }}
               className="text-3xl md:text-4xl font-bold tracking-tight mt-4 mb-4"
             >
-              Built on foundations you can trust.
+              {t("title")}
             </motion.h2>
             <motion.p
               initial={{ opacity: 0, y: 10 }}
@@ -73,8 +70,7 @@ export function TrustSection() {
               transition={{ delay: 0.15 }}
               className="text-lg text-muted-foreground max-w-2xl mx-auto"
             >
-              Security, performance, and reliability aren't features—they're
-              requirements. We've built them into every layer.
+              {t("description")}
             </motion.p>
           </div>
 
@@ -117,7 +113,7 @@ export function TrustSection() {
             className="mt-16 flex flex-wrap items-center justify-center gap-4"
           >
             <span className="text-xs uppercase tracking-wider text-muted-foreground">
-              Powered by
+              {t("poweredBy")}
             </span>
             {[".NET 10", "React 19", "PostgreSQL", "Kafka", "Redis"].map(
               (tech) => (

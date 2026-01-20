@@ -12,6 +12,7 @@ import {
   ClipboardList,
   TrendingUp,
 } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -29,6 +30,15 @@ const itemVariants = {
 };
 
 export function ModulesBentoSection() {
+  const t = useTranslations("modules");
+
+  const inventoryTags = [
+    t("inventory.tags.multiWarehouse"),
+    t("inventory.tags.lotTracking"),
+    t("inventory.tags.serialNumbers"),
+    t("inventory.tags.binLocations"),
+  ];
+
   return (
     <section id="product" className="py-24 md:py-32 bg-background">
       <div className="container mx-auto px-4">
@@ -40,7 +50,7 @@ export function ModulesBentoSection() {
             viewport={{ once: true }}
             className="text-sm font-semibold text-primary uppercase tracking-wider"
           >
-            Core Modules
+            {t("sectionLabel")}
           </motion.span>
           <motion.h2
             initial={{ opacity: 0, y: 10 }}
@@ -49,7 +59,7 @@ export function ModulesBentoSection() {
             transition={{ delay: 0.1 }}
             className="text-3xl md:text-4xl font-bold tracking-tight mt-4 mb-4"
           >
-            Four pillars. One unified system.
+            {t("title")}
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 10 }}
@@ -58,8 +68,7 @@ export function ModulesBentoSection() {
             transition={{ delay: 0.15 }}
             className="text-lg text-muted-foreground"
           >
-            Each module is designed to work independently—but together, they
-            create an operational powerhouse.
+            {t("description")}
           </motion.p>
         </div>
 
@@ -85,22 +94,15 @@ export function ModulesBentoSection() {
               </div>
 
               <h3 className="text-2xl lg:text-3xl font-bold text-white mb-3">
-                Inventory Management
+                {t("inventory.title")}
               </h3>
               <p className="text-slate-300 text-base lg:text-lg leading-relaxed mb-8 flex-grow">
-                Real-time stock visibility across unlimited warehouses and
-                locations. Track every SKU with precision—from receiving to
-                shelf to customer.
+                {t("inventory.description")}
               </p>
 
               {/* Feature pills */}
               <div className="flex flex-wrap gap-2">
-                {[
-                  "Multi-warehouse",
-                  "Lot tracking",
-                  "Serial numbers",
-                  "Bin locations",
-                ].map((tag) => (
+                {inventoryTags.map((tag) => (
                   <span
                     key={tag}
                     className="px-3 py-1.5 rounded-full bg-white/10 text-white/80 text-xs font-medium"
@@ -131,11 +133,10 @@ export function ModulesBentoSection() {
               </div>
 
               <h3 className="text-xl font-bold text-foreground mb-2">
-                Sales Orders
+                {t("sales.title")}
               </h3>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                Quote-to-cash workflow with real-time availability checks.
-                Automatic inventory reservation on order confirmation.
+                {t("sales.description")}
               </p>
             </div>
 
@@ -165,11 +166,10 @@ export function ModulesBentoSection() {
               </div>
 
               <h3 className="text-xl font-bold text-foreground mb-2">
-                Purchasing
+                {t("purchasing.title")}
               </h3>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                Vendor management with purchase order automation. Track lead
-                times, costs, and receiving—all in one place.
+                {t("purchasing.description")}
               </p>
             </div>
 
@@ -204,12 +204,10 @@ export function ModulesBentoSection() {
                 </div>
 
                 <h3 className="text-xl font-bold text-foreground mb-2">
-                  Smart Replenishment
+                  {t("replenishment.title")}
                 </h3>
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  AI-assisted reorder point calculations. Generate purchase
-                  orders automatically based on sales velocity, lead times, and
-                  safety stock levels.
+                  {t("replenishment.description")}
                 </p>
               </div>
 
@@ -220,7 +218,7 @@ export function ModulesBentoSection() {
                     <BarChart3 className="h-5 w-5 text-emerald-600 dark:text-emerald-400" />
                   </div>
                   <span className="text-[10px] text-muted-foreground mt-1">
-                    Analyze
+                    {t("replenishment.analyze")}
                   </span>
                 </div>
                 <div className="w-8 h-[2px] bg-emerald-500/30" />
@@ -229,7 +227,7 @@ export function ModulesBentoSection() {
                     <ClipboardList className="h-5 w-5 text-emerald-600 dark:text-emerald-400" />
                   </div>
                   <span className="text-[10px] text-muted-foreground mt-1">
-                    Suggest
+                    {t("replenishment.suggest")}
                   </span>
                 </div>
                 <div className="w-8 h-[2px] bg-emerald-500/30" />
@@ -238,7 +236,7 @@ export function ModulesBentoSection() {
                     <TrendingUp className="h-5 w-5 text-emerald-600 dark:text-emerald-400" />
                   </div>
                   <span className="text-[10px] text-muted-foreground mt-1">
-                    Optimize
+                    {t("replenishment.optimize")}
                   </span>
                 </div>
               </div>

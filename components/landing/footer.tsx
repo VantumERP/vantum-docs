@@ -1,7 +1,12 @@
-import Link from "next/link";
+"use client";
+
+import { Link } from "@/i18n/navigation";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 export function SiteFooter() {
+  const t = useTranslations("footer");
+
   return (
     <footer className="bg-background border-t border-border py-16">
       <div className="container mx-auto px-4">
@@ -21,25 +26,25 @@ export function SiteFooter() {
               </span>
             </Link>
             <p className="text-sm text-muted-foreground mt-4 leading-relaxed">
-              Distribution ERP for modern enterprises. Built with care.
+              {t("tagline")}
             </p>
             <p className="text-xs text-muted-foreground/70 mt-3">
-              A product by{" "}
-              <Link
+              {t("productBy")}{" "}
+              <a
                 href="https://www.actaer.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary hover:underline font-medium"
               >
                 Actaer
-              </Link>
+              </a>
             </p>
           </div>
 
           {/* Product */}
           <div>
             <h4 className="text-sm font-semibold text-foreground mb-4">
-              Product
+              {t("product")}
             </h4>
             <ul className="space-y-3">
               <li>
@@ -47,7 +52,7 @@ export function SiteFooter() {
                   href="#product"
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  Inventory
+                  {t("inventory")}
                 </Link>
               </li>
               <li>
@@ -55,7 +60,7 @@ export function SiteFooter() {
                   href="#product"
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  Purchasing
+                  {t("purchasing")}
                 </Link>
               </li>
               <li>
@@ -63,7 +68,7 @@ export function SiteFooter() {
                   href="#product"
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  Sales
+                  {t("sales")}
                 </Link>
               </li>
               <li>
@@ -71,7 +76,7 @@ export function SiteFooter() {
                   href="#product"
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  Replenishment
+                  {t("replenishment")}
                 </Link>
               </li>
             </ul>
@@ -80,48 +85,48 @@ export function SiteFooter() {
           {/* Company */}
           <div>
             <h4 className="text-sm font-semibold text-foreground mb-4">
-              Company
+              {t("company")}
             </h4>
             <ul className="space-y-3">
               <li>
-                <Link
+                <a
                   href="https://www.actaer.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  About Actaer
-                </Link>
+                  {t("aboutActaer")}
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   href="https://www.linkedin.com/company/actaer"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                 >
                   LinkedIn
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   href="https://x.com/ActaerCo"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                 >
                   X (Twitter)
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   href="https://github.com/Actaer"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                 >
                   GitHub
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
@@ -129,17 +134,17 @@ export function SiteFooter() {
           {/* Legal */}
           <div>
             <h4 className="text-sm font-semibold text-foreground mb-4">
-              Legal
+              {t("legal")}
             </h4>
             <ul className="space-y-3">
               <li>
                 <span className="text-sm text-muted-foreground/50 cursor-not-allowed">
-                  Privacy Policy
+                  {t("privacyPolicy")}
                 </span>
               </li>
               <li>
                 <span className="text-sm text-muted-foreground/50 cursor-not-allowed">
-                  Terms of Service
+                  {t("termsOfService")}
                 </span>
               </li>
               <li>
@@ -147,7 +152,7 @@ export function SiteFooter() {
                   href="#security"
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  Security
+                  {t("security")}
                 </Link>
               </li>
             </ul>
@@ -157,19 +162,10 @@ export function SiteFooter() {
         {/* Bottom bar */}
         <div className="pt-8 border-t border-border flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} VantumERP by{" "}
-            <Link
-              href="https://www.actaer.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-foreground transition-colors"
-            >
-              Actaer
-            </Link>
-            . All rights reserved.
+            {t("copyright", { year: new Date().getFullYear() })}
           </p>
           <div className="flex items-center gap-6">
-            <Link
+            <a
               href="https://x.com/ActaerCo"
               target="_blank"
               rel="noopener noreferrer"
@@ -183,8 +179,8 @@ export function SiteFooter() {
               >
                 <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
               </svg>
-            </Link>
-            <Link
+            </a>
+            <a
               href="https://github.com/Actaer"
               target="_blank"
               rel="noopener noreferrer"
@@ -202,8 +198,8 @@ export function SiteFooter() {
                   clipRule="evenodd"
                 />
               </svg>
-            </Link>
-            <Link
+            </a>
+            <a
               href="https://www.linkedin.com/company/actaer"
               target="_blank"
               rel="noopener noreferrer"
@@ -221,7 +217,7 @@ export function SiteFooter() {
                   clipRule="evenodd"
                 />
               </svg>
-            </Link>
+            </a>
           </div>
         </div>
       </div>

@@ -1,0 +1,209 @@
+{
+  "metadata": {
+    "title": "VantumERP - Modern Distribution ERP for Enterprises",
+    "description": "Distribution ERP without the legacy baggage. Inventory, Purchasing, Sales, and Replenishment unified in one modern platform. Built by Actaer for enterprises that refuse to compromise on software quality."
+  },
+  "nav": {
+    "product": "Product",
+    "enterprise": "Enterprise",
+    "aboutActaer": "About Actaer",
+    "getEarlyAccess": "Get Early Access",
+    "toggleMenu": "Toggle menu",
+    "features": "Features",
+    "modules": "Modules",
+    "docs": "Docs",
+    "blog": "Blog",
+    "joinWaitlist": "Join Waitlist"
+  },
+  "hero": {
+    "badge": "Now accepting pilot partners for 2026",
+    "titleLine1": "Distribution ERP",
+    "titleLine2": "without the legacy baggage.",
+    "description": "Inventory, Purchasing, Sales, and Replenishment—unified in one modern platform. Built for enterprises that refuse to compromise on software quality.",
+    "requestAccess": "Request Early Access",
+    "designedFor": "Designed for distribution-first enterprises",
+    "wholesalers": "Wholesalers",
+    "distributors": "Distributors",
+    "retailChains": "Retail Chains",
+    "thirdPartyLogistics": "3PL Providers"
+  },
+  "modules": {
+    "sectionLabel": "Core Modules",
+    "title": "Four pillars. One unified system.",
+    "description": "Each module is designed to work independently—but together, they create an operational powerhouse.",
+    "inventory": {
+      "title": "Inventory Management",
+      "description": "Real-time stock visibility across unlimited warehouses and locations. Track every SKU with precision—from receiving to shelf to customer.",
+      "tags": {
+        "multiWarehouse": "Multi-warehouse",
+        "lotTracking": "Lot tracking",
+        "serialNumbers": "Serial numbers",
+        "binLocations": "Bin locations"
+      }
+    },
+    "sales": {
+      "title": "Sales Orders",
+      "description": "Quote-to-cash workflow with real-time availability checks. Automatic inventory reservation on order confirmation."
+    },
+    "purchasing": {
+      "title": "Purchasing",
+      "description": "Vendor management with purchase order automation. Track lead times, costs, and receiving—all in one place."
+    },
+    "replenishment": {
+      "title": "Smart Replenishment",
+      "description": "AI-assisted reorder point calculations. Generate purchase orders automatically based on sales velocity, lead times, and safety stock levels.",
+      "analyze": "Analyze",
+      "suggest": "Suggest",
+      "optimize": "Optimize"
+    }
+  },
+  "metrics": {
+    "implementation": {
+      "value": "10x",
+      "label": "Faster implementation",
+      "description": "vs traditional ERP"
+    },
+    "api": {
+      "value": "100%",
+      "label": "API coverage",
+      "description": "Every feature accessible"
+    },
+    "fees": {
+      "value": "0",
+      "label": "Hidden fees",
+      "description": "Transparent pricing"
+    },
+    "users": {
+      "value": "∞",
+      "label": "Users",
+      "description": "No per-seat licensing"
+    }
+  },
+  "whyVantum": {
+    "sectionLabel": "The Vantum Difference",
+    "title": "ERP without the enterprise baggage.",
+    "description": "Legacy ERPs were built for a different era. We're building for companies that expect software to just work.",
+    "legacyERP": "Legacy ERP",
+    "vantumERP": "VantumERP",
+    "comparison": {
+      "implementation": {
+        "legacy": "6-18 month implementations",
+        "vantum": "Weeks, not months"
+      },
+      "pricing": {
+        "legacy": "Per-seat licensing that scales against you",
+        "vantum": "Predictable pricing that scales with you"
+      },
+      "changes": {
+        "legacy": "Consultants required for every change",
+        "vantum": "Self-service configuration"
+      },
+      "ux": {
+        "legacy": "Decade-old UX with steep learning curves",
+        "vantum": "Modern interface your team will actually use"
+      },
+      "architecture": {
+        "legacy": "Monolithic architecture, slow updates",
+        "vantum": "Modular design, continuous deployment"
+      }
+    },
+    "quote": "We built Vantum because we were tired of explaining why",
+    "quoteContinued": "enterprise software has to be this painful.",
+    "quoteAuthor": "— The Vantum Team"
+  },
+  "trust": {
+    "sectionLabel": "Enterprise Ready",
+    "title": "Built on foundations you can trust.",
+    "description": "Security, performance, and reliability aren't features—they're requirements. We've built them into every layer.",
+    "capabilities": {
+      "security": {
+        "title": "Enterprise Security",
+        "description": "Role-based access control, audit logging, and encryption at rest and in transit."
+      },
+      "architecture": {
+        "title": "Modern Architecture",
+        "description": "Built on .NET 10 and React 19 with event-driven patterns and CQRS."
+      },
+      "performance": {
+        "title": "Performance First",
+        "description": "Sub-second response times even with millions of transactions."
+      },
+      "sovereignty": {
+        "title": "Data Sovereignty",
+        "description": "Deploy on your infrastructure or our managed cloud. Your data, your rules."
+      },
+      "api": {
+        "title": "API Complete",
+        "description": "Every feature available via REST API. Build integrations on your terms."
+      },
+      "database": {
+        "title": "PostgreSQL Native",
+        "description": "Battle-tested database with proven reliability and scalability."
+      }
+    },
+    "poweredBy": "Powered by"
+  },
+  "cta": {
+    "pilotBadge": "Limited Pilot Program",
+    "title": "Ready to modernize your",
+    "titleLine2": "distribution operations?",
+    "description": "We're accepting a select group of enterprises for our 2026 pilot program. Get early access, priority support, and shape the product roadmap.",
+    "benefits": {
+      "onboarding": "Priority onboarding",
+      "engineering": "Direct engineering access",
+      "pricing": "Preferred pricing"
+    },
+    "requestAccess": "Request Early Access",
+    "noCommitment": "No commitment required. We'll reach out within 24 hours."
+  },
+  "earlyAccessModal": {
+    "title": "Request Early Access",
+    "description": "Join our pilot program. We'll be in touch within 24 hours.",
+    "successTitle": "Request Received!",
+    "successMessage": "Thank you for your interest. We'll be in touch soon.",
+    "form": {
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "John Doe",
+      "businessEmail": "Business Email",
+      "businessEmailPlaceholder": "john@company.com",
+      "companyName": "Company Name",
+      "companyNamePlaceholder": "Acme Inc.",
+      "employees": "Number of Employees",
+      "employeesPlaceholder": "Select...",
+      "employeesLessThan50": "< 50",
+      "employees50To200": "50 - 200",
+      "employeesMoreThan200": "200+",
+      "submitRequest": "Submit Request"
+    }
+  },
+  "footer": {
+    "tagline": "Distribution ERP for modern enterprises. Built with care.",
+    "productBy": "A product by",
+    "product": "Product",
+    "inventory": "Inventory",
+    "purchasing": "Purchasing",
+    "sales": "Sales",
+    "replenishment": "Replenishment",
+    "company": "Company",
+    "aboutActaer": "About Actaer",
+    "legal": "Legal",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "security": "Security",
+    "copyright": "© {year} VantumERP. All rights reserved.",
+    "builtBy": "Built with",
+    "byActaer": "by Actaer",
+    "resources": "Resources",
+    "documentation": "Documentation",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "features": "Features",
+    "modules": "Modules",
+    "releaseNotes": "Release Notes",
+    "erpForScale": "Enterprise distribution ERP built for scale."
+  },
+  "languageSwitcher": {
+    "label": "Language",
+    "selectLanguage": "Select language"
+  }
+}

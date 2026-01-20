@@ -1,16 +1,25 @@
+import { setRequestLocale } from "next-intl/server";
 import {
   SiteHeader,
   HeroSection,
-  FeaturesSection,
+  ModulesBentoSection,
+  MetricsSection,
+  WhyVantumSection,
   TrustSection,
   CTASection,
   SiteFooter,
-  ModulesBentoSection,
-  WhyVantumSection,
-  MetricsSection,
 } from "@/components/landing";
 
-export default function HomePage() {
+type Props = {
+  params: Promise<{ locale: string }>;
+};
+
+export default async function HomePage({ params }: Props) {
+  const { locale } = await params;
+
+  // Enable static rendering
+  setRequestLocale(locale);
+
   return (
     <>
       <SiteHeader />
