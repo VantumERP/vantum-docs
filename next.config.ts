@@ -56,11 +56,11 @@ const nextConfig: NextConfig = {
             key: "Content-Security-Policy",
             value: [
               "default-src 'self'",
-              "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://vercel.live https://*.vercel-scripts.com",
+              "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://vercel.live https://*.vercel-scripts.com https://www.clarity.ms",
               "style-src 'self' 'unsafe-inline'",
               "img-src 'self' data: https: blob:",
               "font-src 'self' data:",
-              "connect-src 'self' https://formspree.io https://vercel.live https://*.vercel-insights.com wss://ws-us3.pusher.com",
+              "connect-src 'self' https://formspree.io https://vercel.live https://*.vercel-insights.com wss://ws-us3.pusher.com https://*.clarity.ms",
               "frame-ancestors 'self'",
               "base-uri 'self'",
               "form-action 'self' https://formspree.io",
