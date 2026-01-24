@@ -1,12 +1,15 @@
 import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono, Inter } from "next/font/google";
-import { Analytics } from "@vercel/analytics/next";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import "../globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
+import { CookieConsentProvider } from "@/components/cookie-consent-provider";
+import { CookieConsentBanner } from "@/components/cookie-consent-banner";
+import { CookieConsentDialog } from "@/components/cookie-consent-dialog";
+import { ConditionalAnalytics } from "@/components/conditional-analytics";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
@@ -657,10 +660,14 @@ export default async function LocaleLayout({
             enableSystem
             disableTransitionOnChange
           >
-            <main className="flex-1">{children}</main>
+            <CookieConsentProvider>
+              <main className="flex-1">{children}</main>
+              <CookieConsentBanner />
+              <CookieConsentDialog />
+              <ConditionalAnalytics />
+            </CookieConsentProvider>
           </ThemeProvider>
         </NextIntlClientProvider>
-        <Analytics />
       </body>
     </html>
   );

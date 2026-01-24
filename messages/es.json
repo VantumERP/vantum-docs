@@ -205,5 +205,39 @@
   "languageSwitcher": {
     "label": "Idioma",
     "selectLanguage": "Seleccionar idioma"
+  },
+  "cookieConsent": {
+    "title": "Usamos cookies",
+    "description": "Usamos cookies para mejorar tu experiencia de navegación, analizar el tráfico del sitio y personalizar el contenido. Puedes elegir qué cookies permites.",
+    "learnMore": "Más información",
+    "acceptAll": "Aceptar todas",
+    "acceptNecessary": "Solo necesarias",
+    "customize": "Personalizar",
+    "preferencesTitle": "Preferencias de cookies",
+    "preferencesDescription": "Administra tus preferencias de cookies a continuación. Puedes habilitar o deshabilitar diferentes tipos de cookies.",
+    "cookiePolicy": "Política de cookies",
+    "savePreferences": "Guardar preferencias",
+    "manageCookies": "Administrar cookies",
+    "categories": {
+      "necessary": {
+        "title": "Necesarias",
+        "description": "Cookies esenciales requeridas para la funcionalidad básica del sitio web. Estas no se pueden deshabilitar."
+      },
+      "analytics": {
+        "title": "Analíticas",
+        "description": "Nos ayudan a entender cómo los visitantes interactúan con nuestro sitio web recopilando información anónima."
+      },
+      "marketing": {
+        "title": "Marketing",
+        "description": "Se utilizan para entregar anuncios personalizados y rastrear la efectividad de las campañas de marketing."
+      }
+    }
+  },
+  "legal": {
+    "backToHome": "Volver al inicio",
+    "lastUpdated": "Última actualización",
+    "privacyPolicy": "Política de privacidad",
+    "cookiePolicy": "Política de cookies",
+    "termsOfService": "Términos de servicio"
   }
 }

@@ -205,5 +205,39 @@
   "languageSwitcher": {
     "label": "Jezik",
     "selectLanguage": "Izaberite jezik"
+  },
+  "cookieConsent": {
+    "title": "Koristimo kolačiće",
+    "description": "Koristimo kolačiće da poboljšamo vaše iskustvo pretraživanja, analiziramo saobraćaj na sajtu i personalizujemo sadržaj. Možete izabrati koje kolačiće dozvoljavate.",
+    "learnMore": "Saznajte više",
+    "acceptAll": "Prihvati sve",
+    "acceptNecessary": "Samo neophodni",
+    "customize": "Prilagodi",
+    "preferencesTitle": "Podešavanja kolačića",
+    "preferencesDescription": "Upravljajte podešavanjima kolačića ispod. Možete omogućiti ili onemogućiti različite vrste kolačića.",
+    "cookiePolicy": "Politika kolačića",
+    "savePreferences": "Sačuvaj podešavanja",
+    "manageCookies": "Upravljaj kolačićima",
+    "categories": {
+      "necessary": {
+        "title": "Neophodni",
+        "description": "Osnovni kolačići potrebni za osnovnu funkcionalnost sajta. Ovi se ne mogu onemogućiti."
+      },
+      "analytics": {
+        "title": "Analitički",
+        "description": "Pomažu nam da razumemo kako posetioci koriste naš sajt prikupljanjem anonimnih informacija."
+      },
+      "marketing": {
+        "title": "Marketing",
+        "description": "Koriste se za prikazivanje personalizovanih reklama i praćenje efikasnosti marketinških kampanja."
+      }
+    }
+  },
+  "legal": {
+    "backToHome": "Nazad na početnu",
+    "lastUpdated": "Poslednje ažurirano",
+    "privacyPolicy": "Politika privatnosti",
+    "cookiePolicy": "Politika kolačića",
+    "termsOfService": "Uslovi korišćenja"
   }
 }

@@ -3,9 +3,12 @@
 import { Link } from "@/i18n/navigation";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import { useCookieConsent } from "@/components/cookie-consent-provider";
 
 export function SiteFooter() {
   const t = useTranslations("footer");
+  const tCookie = useTranslations("cookieConsent");
+  const { setShowPreferences } = useCookieConsent();
 
   return (
     <footer className="bg-background border-t border-border py-16">
@@ -138,24 +141,36 @@ export function SiteFooter() {
             </h2>
             <ul className="space-y-3">
               <li>
-                <span
-                  className="text-sm text-muted-foreground cursor-not-allowed opacity-60"
-                  aria-disabled="true"
-                  role="link"
-                  aria-label={`${t("privacyPolicy")} (coming soon)`}
+                <Link
+                  href="/legal/privacy"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                 >
                   {t("privacyPolicy")}
-                </span>
+                </Link>
               </li>
               <li>
-                <span
-                  className="text-sm text-muted-foreground cursor-not-allowed opacity-60"
-                  aria-disabled="true"
-                  role="link"
-                  aria-label={`${t("termsOfService")} (coming soon)`}
+                <Link
+                  href="/legal/terms"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                 >
                   {t("termsOfService")}
-                </span>
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/legal/cookies"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  {tCookie("cookiePolicy")}
+                </Link>
+              </li>
+              <li>
+                <button
+                  onClick={() => setShowPreferences(true)}
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  {tCookie("manageCookies")}
+                </button>
               </li>
               <li>
                 <Link
