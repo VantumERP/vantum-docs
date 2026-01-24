@@ -10,6 +10,7 @@ import { CookieConsentProvider } from "@/components/cookie-consent-provider";
 import { CookieConsentBanner } from "@/components/cookie-consent-banner";
 import { CookieConsentDialog } from "@/components/cookie-consent-dialog";
 import { ConditionalAnalytics } from "@/components/conditional-analytics";
+import { ConditionalClarity } from "@/components/conditional-clarity";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
@@ -665,6 +666,7 @@ export default async function LocaleLayout({
               <CookieConsentBanner />
               <CookieConsentDialog />
               <ConditionalAnalytics />
+              <ConditionalClarity />
             </CookieConsentProvider>
           </ThemeProvider>
         </NextIntlClientProvider>
