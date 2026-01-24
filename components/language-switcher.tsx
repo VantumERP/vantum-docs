@@ -24,8 +24,11 @@ export function LanguageSwitcher() {
 
   return (
     <Select value={locale} onValueChange={handleChange}>
-      <SelectTrigger className="w-auto gap-2 border-0 bg-transparent hover:bg-muted/50 focus:ring-0 focus:ring-offset-0">
-        <Globe className="h-4 w-4" />
+      <SelectTrigger
+        className="w-auto gap-2 border-0 bg-transparent hover:bg-muted/50 focus:ring-0 focus:ring-offset-0"
+        aria-label={`${t("selectLanguage")}: ${localeNames[locale as Locale]}`}
+      >
+        <Globe className="h-4 w-4" aria-hidden="true" />
         <SelectValue>
           {localeFlags[locale as Locale]} {localeNames[locale as Locale]}
         </SelectValue>

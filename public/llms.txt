@@ -1,0 +1,130 @@
+# VantumERP - Modern Distribution ERP for Enterprises
+
+> VantumERP is a next-generation Enterprise Resource Planning (ERP) software designed specifically for distribution-first businesses. Built by Actaer, it offers a modern alternative to legacy ERP systems.
+
+## Overview
+
+VantumERP is a cloud-native, API-first ERP platform that unifies inventory management, purchasing, sales order processing, and smart replenishment into one cohesive system. Unlike traditional ERP solutions that require months of implementation and expensive consultants, VantumERP can be deployed in weeks with self-service configuration.
+
+## Company Information
+
+- **Product Name:** VantumERP
+- **Company:** Actaer
+- **Website:** https://vantumerp.com
+- **Parent Company Website:** https://www.actaer.com
+- **Industry:** Enterprise Software, ERP, Distribution Technology
+- **Founded:** 2024
+- **Headquarters:** Global (Remote-first)
+
+## Target Customers
+
+VantumERP is designed for:
+- **Wholesalers:** Managing bulk inventory and B2B sales
+- **Distributors:** Multi-warehouse operations and supply chain management
+- **Retail Chains:** Centralized inventory across multiple locations
+- **3PL Providers:** Third-party logistics and warehousing operations
+
+## Core Modules
+
+### 1. Inventory Management
+- Real-time stock visibility across unlimited warehouses
+- Multi-location support with bin-level tracking
+- Lot tracking and serial number management
+- Automated stock level alerts
+- Cycle counting and inventory adjustments
+
+### 2. Sales Orders
+- Quote-to-cash workflow automation
+- Real-time inventory availability checks
+- Automatic inventory reservation on order confirmation
+- Customer management and pricing tiers
+- Order fulfillment and shipping integration
+
+### 3. Purchasing
+- Vendor management and supplier portals
+- Purchase order automation
+- Lead time tracking and management
+- Cost tracking and landed cost calculations
+- Receiving and quality control workflows
+
+### 4. Smart Replenishment
+- AI-assisted reorder point calculations
+- Automatic purchase order generation
+- Sales velocity analysis
+- Safety stock optimization
+- Demand forecasting
+
+## Key Differentiators
+
+| Feature | Legacy ERP | VantumERP |
+|---------|------------|-----------|
+| Implementation Time | 6-18 months | Weeks |
+| Pricing Model | Per-seat licensing | Unlimited users |
+| Configuration | Requires consultants | Self-service |
+| User Experience | Dated interfaces | Modern, intuitive UI |
+| Architecture | Monolithic | Modular, microservices |
+| Updates | Infrequent, disruptive | Continuous deployment |
+
+## Technical Specifications
+
+- **Backend:** .NET 10 with CQRS and Event Sourcing
+- **Frontend:** React 19 with TypeScript
+- **Database:** PostgreSQL
+- **API:** RESTful API with 100% feature coverage
+- **Deployment:** Cloud-native, supports self-hosted or managed cloud
+- **Security:** Role-based access control, encryption at rest and in transit, audit logging
+
+## Pricing
+
+VantumERP offers transparent, predictable pricing:
+- No per-seat licensing fees
+- No hidden implementation costs
+- Pilot program available for early adopters
+- Enterprise agreements available
+
+## Current Status
+
+VantumERP is currently accepting pilot partners for 2026. Early access includes:
+- Priority onboarding
+- Direct engineering access
+- Preferred pricing
+- Influence on product roadmap
+
+## Contact
+
+- **Early Access:** Request via https://vantumerp.com
+- **General Inquiries:** hello@actaer.com
+- **Response Time:** Within 24 hours
+
+## Documentation
+
+- Full documentation: https://vantumerp.com/docs (coming soon)
+- API Reference: https://vantumerp.com/api (coming soon)
+- Detailed information: https://vantumerp.com/llms-full.txt
+
+## Frequently Asked Questions
+
+**Q: What is VantumERP?**
+A: VantumERP is a modern distribution ERP system that unifies Inventory, Purchasing, Sales, and Replenishment in one platform. Built for enterprises that have outgrown legacy systems.
+
+**Q: Who built VantumERP?**
+A: VantumERP is built by Actaer, a software company focused on creating enterprise-grade applications with modern technology stacks.
+
+**Q: What industries does VantumERP serve?**
+A: VantumERP is designed for distribution-first enterprises including wholesalers, distributors, retail chains, and 3PL providers.
+
+**Q: How long does implementation take?**
+A: Unlike legacy ERPs that take 6-18 months, VantumERP can be implemented in weeks, not months.
+
+**Q: Is there per-user pricing?**
+A: No. VantumERP offers unlimited users with predictable, transparent pricing.
+
+**Q: Can I self-host VantumERP?**
+A: Yes. VantumERP supports both managed cloud deployment and self-hosted options for data sovereignty requirements.
+
+**Q: Is VantumERP API-first?**
+A: Yes. Every feature in VantumERP is accessible via REST API, enabling seamless integrations.
+
+## Keywords
+
+ERP, Enterprise Resource Planning, Distribution ERP, Inventory Management, Warehouse Management System, WMS, Supply Chain Management, SCM, Purchase Order Management, Sales Order Processing, Replenishment System, Wholesale ERP, Distributor Software, B2B ERP, Cloud ERP, Modern ERP, API-first ERP, VantumERP, Actaer

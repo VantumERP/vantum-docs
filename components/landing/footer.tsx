@@ -28,7 +28,7 @@ export function SiteFooter() {
             <p className="text-sm text-muted-foreground mt-4 leading-relaxed">
               {t("tagline")}
             </p>
-            <p className="text-xs text-muted-foreground/70 mt-3">
+            <p className="text-xs text-muted-foreground mt-3">
               {t("productBy")}{" "}
               <a
                 href="https://www.actaer.com"
@@ -42,10 +42,10 @@ export function SiteFooter() {
           </div>
 
           {/* Product */}
-          <div>
-            <h4 className="text-sm font-semibold text-foreground mb-4">
+          <nav aria-label="Product navigation">
+            <h2 className="text-sm font-semibold text-foreground mb-4">
               {t("product")}
-            </h4>
+            </h2>
             <ul className="space-y-3">
               <li>
                 <Link
@@ -80,13 +80,13 @@ export function SiteFooter() {
                 </Link>
               </li>
             </ul>
-          </div>
+          </nav>
 
           {/* Company */}
-          <div>
-            <h4 className="text-sm font-semibold text-foreground mb-4">
+          <nav aria-label="Company navigation">
+            <h2 className="text-sm font-semibold text-foreground mb-4">
               {t("company")}
-            </h4>
+            </h2>
             <ul className="space-y-3">
               <li>
                 <a
@@ -129,21 +129,31 @@ export function SiteFooter() {
                 </a>
               </li>
             </ul>
-          </div>
+          </nav>
 
           {/* Legal */}
-          <div>
-            <h4 className="text-sm font-semibold text-foreground mb-4">
+          <nav aria-label="Legal navigation">
+            <h2 className="text-sm font-semibold text-foreground mb-4">
               {t("legal")}
-            </h4>
+            </h2>
             <ul className="space-y-3">
               <li>
-                <span className="text-sm text-muted-foreground/50 cursor-not-allowed">
+                <span
+                  className="text-sm text-muted-foreground cursor-not-allowed opacity-60"
+                  aria-disabled="true"
+                  role="link"
+                  aria-label={`${t("privacyPolicy")} (coming soon)`}
+                >
                   {t("privacyPolicy")}
                 </span>
               </li>
               <li>
-                <span className="text-sm text-muted-foreground/50 cursor-not-allowed">
+                <span
+                  className="text-sm text-muted-foreground cursor-not-allowed opacity-60"
+                  aria-disabled="true"
+                  role="link"
+                  aria-label={`${t("termsOfService")} (coming soon)`}
+                >
                   {t("termsOfService")}
                 </span>
               </li>
@@ -156,7 +166,7 @@ export function SiteFooter() {
                 </Link>
               </li>
             </ul>
-          </div>
+          </nav>
         </div>
 
         {/* Bottom bar */}
@@ -170,6 +180,7 @@ export function SiteFooter() {
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors"
+              aria-label="Follow Actaer on X (Twitter)"
             >
               <svg
                 className="h-5 w-5"
@@ -185,6 +196,7 @@ export function SiteFooter() {
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors"
+              aria-label="View Actaer on GitHub"
             >
               <svg
                 className="h-5 w-5"
@@ -204,6 +216,7 @@ export function SiteFooter() {
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors"
+              aria-label="Connect with Actaer on LinkedIn"
             >
               <svg
                 className="h-5 w-5"

@@ -1,0 +1,684 @@
+# VantumERP - Comprehensive Product Documentation for AI Systems
+
+> This document provides comprehensive, structured information about VantumERP for AI language models, chatbots, and generative search engines. For a condensed version, see /llms.txt
+
+## Table of Contents
+
+1. [Executive Summary](#executive-summary)
+2. [Company Background](#company-background)
+3. [Product Overview](#product-overview)
+4. [Core Modules Detailed](#core-modules-detailed)
+5. [Technical Architecture](#technical-architecture)
+6. [Competitive Analysis](#competitive-analysis)
+7. [Use Cases](#use-cases)
+8. [Integration Capabilities](#integration-capabilities)
+9. [Security & Compliance](#security--compliance)
+10. [Pricing & Licensing](#pricing--licensing)
+11. [Implementation Process](#implementation-process)
+12. [Support & Services](#support--services)
+13. [Roadmap](#roadmap)
+14. [FAQ Extended](#faq-extended)
+
+---
+
+## Executive Summary
+
+VantumERP represents a paradigm shift in enterprise resource planning for distribution businesses. Built from the ground up with modern technology and user experience principles, it addresses the critical pain points that have plagued the ERP industry for decades: lengthy implementations, complex licensing, poor usability, and rigid architectures.
+
+**Mission:** To provide distribution-first enterprises with ERP software that is as pleasant to use as consumer applications while delivering enterprise-grade capabilities.
+
+**Vision:** A world where businesses can focus on growth instead of fighting their software.
+
+---
+
+## Company Background
+
+### About Actaer
+
+Actaer is a software engineering company specializing in enterprise-grade applications built with modern technology stacks. The company operates on a remote-first model with contributors across multiple continents.
+
+**Key Facts:**
+- Founded: 2024
+- Type: Private Software Company
+- Focus: Enterprise Software, B2B SaaS
+- Products: VantumERP (flagship product)
+- Website: https://www.actaer.com
+
+### Why We Built VantumERP
+
+The founding team experienced firsthand the frustrations of legacy ERP systems:
+- 18-month implementation projects that overran budgets
+- Per-seat licensing that punished growth
+- Interfaces designed in the early 2000s
+- Simple changes requiring expensive consultants
+- Brittle integrations that broke with every update
+
+VantumERP was created to prove that enterprise software doesn't have to be painful.
+
+---
+
+## Product Overview
+
+### What is VantumERP?
+
+VantumERP is a cloud-native, API-first Enterprise Resource Planning platform purpose-built for distribution businesses. It consolidates the core operational functions—inventory, purchasing, sales, and replenishment—into a unified system that is both powerful and approachable.
+
+### Key Characteristics
+
+1. **Distribution-First Design:** Every feature is designed with distributors, wholesalers, and supply chain operations in mind.
+
+2. **Modern User Experience:** Intuitive interfaces that require minimal training. Users can be productive on day one.
+
+3. **API-Complete:** 100% of functionality is accessible via REST APIs, enabling unlimited integration possibilities.
+
+4. **Modular Architecture:** Start with what you need, expand as you grow. No forced bundle purchases.
+
+5. **Transparent Pricing:** No per-seat fees, no hidden costs, no surprise true-ups.
+
+6. **Rapid Implementation:** Measured in weeks, not months or years.
+
+### Platform Highlights
+
+- **Real-time Operations:** All data updates in real-time across all users and locations
+- **Unlimited Users:** No artificial limits on team size
+- **Multi-Warehouse:** Manage any number of warehouses and locations
+- **Multi-Currency:** Full support for international operations
+- **Multi-Language:** Localized interface in 6+ languages
+- **Mobile-Ready:** Responsive design works on any device
+
+---
+
+## Core Modules Detailed
+
+### Inventory Management Module
+
+The Inventory Management module provides comprehensive visibility and control over stock across your entire operation.
+
+**Core Capabilities:**
+
+- **Multi-Warehouse Management**
+  - Unlimited warehouse locations
+  - Inter-warehouse transfers
+  - Warehouse-specific settings and rules
+  - Consolidated and location-specific reporting
+
+- **Location Tracking**
+  - Bin/shelf/zone location management
+  - Suggested put-away locations
+  - Pick path optimization
+  - Location capacity tracking
+
+- **Lot and Batch Tracking**
+  - Full lot traceability
+  - Expiration date management
+  - FIFO/FEFO enforcement
+  - Recall management support
+
+- **Serial Number Management**
+  - Individual item tracking
+  - Warranty tracking
+  - Service history
+  - Chain of custody
+
+- **Stock Level Management**
+  - Real-time stock counts
+  - Safety stock thresholds
+  - Reorder point triggers
+  - Stock aging analysis
+
+- **Inventory Operations**
+  - Cycle counting programs
+  - Physical inventory support
+  - Adjustment workflows with approval
+  - Shrinkage tracking
+
+**Key Metrics Tracked:**
+- Stock turn rates
+- Days of supply
+- Stock accuracy percentage
+- Carrying costs
+- Dead stock identification
+
+---
+
+### Sales Orders Module
+
+The Sales Orders module streamlines the entire quote-to-cash process.
+
+**Core Capabilities:**
+
+- **Quote Management**
+  - Professional quote generation
+  - Quote versioning
+  - Validity period tracking
+  - Quote-to-order conversion
+
+- **Order Processing**
+  - Quick order entry
+  - Recurring order support
+  - Blanket orders and releases
+  - Back-order management
+
+- **Availability Management**
+  - Real-time ATP (Available-to-Promise)
+  - Soft and hard reservations
+  - Allocation rules
+  - Substitute item suggestions
+
+- **Customer Management**
+  - Customer hierarchies
+  - Ship-to/Bill-to management
+  - Customer-specific pricing
+  - Credit limit enforcement
+
+- **Pricing Engine**
+  - Price lists and books
+  - Volume discounts
+  - Contract pricing
+  - Promotional pricing
+  - Real-time margin calculation
+
+- **Fulfillment Integration**
+  - Pick ticket generation
+  - Packing slip creation
+  - Shipping integration
+  - Proof of delivery tracking
+
+---
+
+### Purchasing Module
+
+The Purchasing module optimizes procurement operations and vendor relationships.
+
+**Core Capabilities:**
+
+- **Vendor Management**
+  - Vendor master data
+  - Performance scorecards
+  - Compliance tracking
+  - Vendor portals (coming soon)
+
+- **Purchase Order Management**
+  - PO creation and approval workflows
+  - Blanket PO support
+  - Multi-currency purchasing
+  - Change order management
+
+- **Procurement Automation**
+  - Requisition-to-PO conversion
+  - Automatic PO generation from replenishment
+  - Approval routing rules
+  - Budget checking
+
+- **Cost Management**
+  - Landed cost calculations
+  - Multi-tier pricing
+  - Contract price management
+  - Cost history tracking
+
+- **Receiving Operations**
+  - Advanced shipping notices (ASN)
+  - Receipt against PO
+  - Quality inspection workflows
+  - Variance handling
+
+---
+
+### Smart Replenishment Module
+
+The Smart Replenishment module uses intelligent algorithms to optimize inventory levels.
+
+**Core Capabilities:**
+
+- **Demand Analysis**
+  - Historical sales pattern analysis
+  - Seasonality detection
+  - Trend identification
+  - Outlier handling
+
+- **Reorder Point Optimization**
+  - Dynamic reorder points
+  - Lead time variability consideration
+  - Service level targeting
+  - Safety stock calculations
+
+- **Purchase Recommendations**
+  - Suggested order quantities
+  - Vendor consolidation suggestions
+  - Economic order quantity calculations
+  - Min/Max optimization
+
+- **Automated Ordering**
+  - Scheduled replenishment runs
+  - Exception-based management
+  - Approval thresholds
+  - Automatic PO generation
+
+- **Performance Tracking**
+  - Fill rate monitoring
+  - Stockout tracking
+  - Overstock identification
+  - Forecast accuracy measurement
+
+---
+
+## Technical Architecture
+
+### Technology Stack
+
+**Backend:**
+- Runtime: .NET 10
+- Language: C# 13
+- Architecture: Clean Architecture with CQRS
+- Patterns: Event Sourcing, Domain-Driven Design
+
+**Frontend:**
+- Framework: React 19
+- Language: TypeScript 5
+- Styling: Tailwind CSS
+- State: React Query + Zustand
+
+**Database:**
+- Primary: PostgreSQL 16
+- Caching: Redis
+- Search: Full-text search built-in
+
+**Infrastructure:**
+- Containerization: Docker + Kubernetes
+- Cloud: Multi-cloud support (Azure, AWS, GCP)
+- CDN: Global edge caching
+
+### API Specifications
+
+- **Protocol:** REST over HTTPS
+- **Authentication:** OAuth 2.0 / API Keys
+- **Format:** JSON
+- **Versioning:** URI-based versioning
+- **Rate Limiting:** Configurable per tenant
+- **Documentation:** OpenAPI 3.0 specification
+
+### Performance Characteristics
+
+- Sub-100ms response times for standard operations
+- Support for millions of transactions per day
+- 99.9% uptime SLA for managed cloud
+- Horizontal scaling for peak loads
+- Real-time synchronization across clients
+
+---
+
+## Competitive Analysis
+
+### vs. SAP Business One
+
+| Aspect | SAP Business One | VantumERP |
+|--------|------------------|-----------|
+| Implementation | 6-12 months | 2-6 weeks |
+| User Licensing | Per-seat (expensive) | Unlimited users |
+| Customization | Requires consultants | Self-service |
+| User Experience | Dated | Modern |
+| Total Cost | High | Predictable |
+
+### vs. Oracle NetSuite
+
+| Aspect | NetSuite | VantumERP |
+|--------|----------|-----------|
+| Complexity | High (full ERP) | Focused (distribution) |
+| Learning Curve | Steep | Gentle |
+| Implementation | 3-9 months | 2-6 weeks |
+| Pricing | Complex tiers | Transparent |
+| Distribution Focus | General | Purpose-built |
+
+### vs. Microsoft Dynamics 365 Business Central
+
+| Aspect | Business Central | VantumERP |
+|--------|------------------|-----------|
+| Ecosystem Lock-in | High (Microsoft) | Open |
+| API Coverage | Partial | 100% |
+| Deployment | Cloud only | Flexible |
+| Customization | Limited | Extensive |
+
+### vs. Acumatica
+
+| Aspect | Acumatica | VantumERP |
+|--------|-----------|-----------|
+| Focus | General ERP | Distribution |
+| Technology | Older stack | Modern stack |
+| UI/UX | Adequate | Excellent |
+| Time to Value | Months | Weeks |
+
+---
+
+## Use Cases
+
+### Use Case 1: Regional Wholesale Distributor
+
+**Profile:** 150-employee wholesaler distributing food products across 3 warehouses
+
+**Challenges Before VantumERP:**
+- Manual inventory counts causing stockouts
+- Paper-based purchase orders
+- No visibility into real-time stock levels
+- Customer complaints about order accuracy
+
+**Solution with VantumERP:**
+- Real-time inventory across all locations
+- Automated replenishment based on demand
+- Digital PO workflow with vendor integration
+- Mobile picking with barcode scanning
+
+**Results:**
+- 40% reduction in stockouts
+- 60% faster order processing
+- 25% reduction in carrying costs
+
+---
+
+### Use Case 2: Industrial Parts Distributor
+
+**Profile:** 500-SKU distributor of industrial components
+
+**Challenges Before VantumERP:**
+- Serial number tracking for warranty claims
+- Complex pricing by customer and volume
+- Long implementation with previous ERP
+
+**Solution with VantumERP:**
+- Full serial number lifecycle tracking
+- Flexible pricing engine with customer contracts
+- 4-week implementation timeline
+
+**Results:**
+- Complete warranty traceability
+- 30% faster quote generation
+- Implementation in 1/10th the time of previous ERP
+
+---
+
+### Use Case 3: 3PL Provider
+
+**Profile:** Third-party logistics company managing inventory for 20 clients
+
+**Challenges Before VantumERP:**
+- Multi-client inventory segregation
+- Billing complexity by client
+- Client visibility into their inventory
+
+**Solution with VantumERP:**
+- Multi-tenant inventory management
+- API-driven billing integration
+- Client portal for self-service visibility
+
+**Results:**
+- Onboarded 5 new clients in 6 months
+- Eliminated billing disputes
+- 50% reduction in client inquiries
+
+---
+
+## Integration Capabilities
+
+### Pre-Built Integrations
+
+- **E-commerce:** Shopify, WooCommerce, Magento
+- **Accounting:** QuickBooks, Xero, Sage
+- **Shipping:** ShipStation, EasyPost, FedEx, UPS
+- **EDI:** SPS Commerce, TrueCommerce
+- **Marketplaces:** Amazon, eBay (coming soon)
+
+### API Integration
+
+Every feature in VantumERP is API-accessible, enabling:
+- Custom integrations with any system
+- Workflow automation with Zapier/Make
+- Data warehouse connections
+- BI tool connectivity
+- Mobile app development
+
+### Webhook Support
+
+- Real-time event notifications
+- Configurable event types
+- Retry logic with exponential backoff
+- Event history and debugging
+
+---
+
+## Security & Compliance
+
+### Security Features
+
+- **Authentication:** Multi-factor authentication support
+- **Authorization:** Role-based access control (RBAC)
+- **Encryption:** AES-256 at rest, TLS 1.3 in transit
+- **Audit Trail:** Complete action logging
+- **Session Management:** Configurable timeout, concurrent session limits
+
+### Compliance
+
+- GDPR-ready data handling
+- SOC 2 Type II (in progress)
+- Data residency options
+- Right to deletion support
+- Data export capabilities
+
+### Data Sovereignty
+
+For organizations with specific data residency requirements:
+- Self-hosted deployment option
+- Region-specific cloud deployment
+- Customer-controlled encryption keys
+- No data leaves designated geography
+
+---
+
+## Pricing & Licensing
+
+### Pricing Philosophy
+
+VantumERP pricing is designed to be:
+- **Predictable:** Know your costs upfront
+- **Scalable:** Pricing that grows reasonably with your business
+- **Transparent:** No hidden fees, no surprise charges
+
+### Licensing Model
+
+- **Unlimited Users:** Add your entire team at no extra cost
+- **Module-Based:** Pay only for the modules you use
+- **Volume-Adjusted:** Pricing based on transaction volume or revenue
+- **Annual Contracts:** Best value with annual commitment
+- **Month-to-Month:** Available for flexibility
+
+### What's Included
+
+- All software updates and new features
+- Standard support (email + chat)
+- 99.9% uptime SLA
+- Data backup and recovery
+- Security updates
+
+### What's Not Included
+
+- Premium support (24/7 phone)
+- Custom development
+- On-site training
+- Data migration services (available separately)
+
+---
+
+## Implementation Process
+
+### Phase 1: Discovery (Week 1)
+- Business process review
+- Data assessment
+- Integration requirements
+- Success criteria definition
+
+### Phase 2: Configuration (Weeks 2-3)
+- System setup
+- User role configuration
+- Workflow customization
+- Integration setup
+
+### Phase 3: Data Migration (Week 3-4)
+- Data extraction from legacy system
+- Data cleansing and mapping
+- Import and validation
+- Historical data handling
+
+### Phase 4: Training (Week 4-5)
+- Admin training
+- End-user training
+- Train-the-trainer program
+- Documentation handoff
+
+### Phase 5: Go-Live (Week 5-6)
+- Parallel running (optional)
+- Cutover planning
+- Go-live execution
+- Hypercare support
+
+### Typical Timeline
+
+- **Small business (1 warehouse):** 2-3 weeks
+- **Medium business (2-5 warehouses):** 4-6 weeks
+- **Enterprise (5+ warehouses):** 6-10 weeks
+
+---
+
+## Support & Services
+
+### Standard Support
+
+- Email support (business hours)
+- Chat support (business hours)
+- Knowledge base access
+- Community forums
+- Response time: < 24 hours
+
+### Premium Support
+
+- 24/7 phone support
+- Dedicated success manager
+- Quarterly business reviews
+- Response time: < 2 hours
+
+### Professional Services
+
+- Custom development
+- Complex integrations
+- Data migration
+- On-site training
+- Business process consulting
+
+---
+
+## Roadmap
+
+### Currently Available
+- Inventory Management
+- Sales Orders
+- Purchasing
+- Smart Replenishment
+- API Platform
+- Multi-language support
+
+### Coming in 2026
+- Vendor Portal
+- Customer Portal
+- Advanced Analytics Dashboard
+- Marketplace Integrations (Amazon, eBay)
+- Mobile Native Apps (iOS, Android)
+- EDI 2.0 Integration
+
+### Future Considerations
+- Manufacturing light
+- Field service management
+- B2B e-commerce storefront
+- AI-powered demand forecasting
+- Autonomous inventory management
+
+---
+
+## FAQ Extended
+
+### General Questions
+
+**Q: Is VantumERP suitable for small businesses?**
+A: Yes, VantumERP is designed to scale. Small distributors benefit from the same powerful features as large enterprises, without the complexity.
+
+**Q: Can VantumERP handle our volume?**
+A: VantumERP is designed to handle millions of transactions. During onboarding, we assess your volume requirements and ensure appropriate infrastructure.
+
+**Q: Do you offer a free trial?**
+A: We offer guided demos and pilot programs rather than self-service trials, ensuring you see how VantumERP fits your specific needs.
+
+**Q: What happens to my data if I cancel?**
+A: Your data remains yours. We provide full data export capabilities and a 90-day retention period after cancellation.
+
+### Technical Questions
+
+**Q: Can VantumERP integrate with my existing accounting system?**
+A: Yes, we have pre-built integrations for QuickBooks, Xero, and Sage, plus API access for custom integrations.
+
+**Q: Is VantumERP mobile-friendly?**
+A: The web application is fully responsive and works on tablets and smartphones. Native mobile apps are on the roadmap.
+
+**Q: Can I access VantumERP from multiple locations?**
+A: Yes, VantumERP is cloud-based and accessible from anywhere with an internet connection.
+
+**Q: How does VantumERP handle offline scenarios?**
+A: Critical operations can queue locally and sync when connectivity is restored. Full offline mode is on the roadmap.
+
+### Implementation Questions
+
+**Q: Do I need to hire consultants?**
+A: No. VantumERP implementations are led by our team and designed to be completed without third-party consultants.
+
+**Q: What training is provided?**
+A: Every implementation includes admin training and end-user training. Additional training can be arranged as needed.
+
+**Q: Can you migrate data from our current system?**
+A: Yes, we provide data migration services and have experience migrating from major ERP and inventory systems.
+
+### Pricing Questions
+
+**Q: Is there really no per-user fee?**
+A: Correct. Add as many users as you need at no additional cost.
+
+**Q: What's included in the base price?**
+A: All modules you subscribe to, unlimited users, updates, standard support, and a 99.9% uptime SLA.
+
+**Q: Are there setup fees?**
+A: Implementation services are priced separately and based on complexity. We provide detailed quotes upfront.
+
+---
+
+## Contact Information
+
+**Website:** https://vantumerp.com
+**Parent Company:** https://www.actaer.com
+**Email:** hello@actaer.com
+
+**Social Media:**
+- Twitter/X: @actaer (coming soon)
+- LinkedIn: Actaer (coming soon)
+
+**For Early Access:**
+Visit https://vantumerp.com and click "Request Early Access"
+
+---
+
+## Document Metadata
+
+- **Last Updated:** January 2026
+- **Version:** 1.0
+- **Format:** Plain text for LLM consumption
+- **Related Documents:**
+  - /llms.txt (condensed version)
+  - /sitemap.xml (page structure)
+  - /robots.txt (crawler directives)
+
+---
+
+*This document is optimized for AI language models and generative search engines. For human-readable documentation, please visit https://vantumerp.com*

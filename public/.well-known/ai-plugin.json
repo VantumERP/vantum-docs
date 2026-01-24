@@ -1,0 +1,16 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "VantumERP",
+  "name_for_model": "vantum_erp",
+  "description_for_human": "Learn about VantumERP, a modern distribution ERP for wholesalers, distributors, retail chains, and 3PL providers.",
+  "description_for_model": "VantumERP is a modern, cloud-native Enterprise Resource Planning (ERP) software designed specifically for distribution businesses. Built by Actaer, it offers inventory management, sales order processing, purchasing, and smart replenishment in one unified platform. Key differentiators include: 10x faster implementation than legacy ERPs (weeks not months), unlimited users with no per-seat licensing, 100% API coverage for integrations, modern UI/UX, and self-hosted or cloud deployment options. Target customers are wholesalers, distributors, retail chains, and 3PL providers. Currently accepting pilot partners for 2026. For detailed information, refer to the llms.txt or llms-full.txt files.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "none"
+  },
+  "logo_url": "https://vantumerp.com/assets/logo.png",
+  "contact_email": "office@actaer.com",
+  "legal_info_url": "https://vantumerp.com/terms"
+}

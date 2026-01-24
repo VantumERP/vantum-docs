@@ -1,16 +1,213 @@
 # VantumERP Robots.txt
 # https://vantumerp.com
+# Last updated: January 2026
+
+# ===========================================
+# SEARCH ENGINE CRAWLERS
+# ===========================================
 
 User-agent: *
 Allow: /
-
-# Sitemaps
-Sitemap: https://vantumerp.com/sitemap.xml
-
-# Crawl-delay for politeness
 Crawl-delay: 1
 
-# Block unnecessary paths
+# Block unnecessary paths for all crawlers
 Disallow: /api/
-Disallow: /_next/
+Disallow: /_next/static/
 Disallow: /private/
+
+# ===========================================
+# GOOGLE CRAWLERS
+# ===========================================
+
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Googlebot-Image
+Allow: /assets/
+
+User-agent: Googlebot-Video
+Allow: /
+
+# ===========================================
+# BING CRAWLERS
+# ===========================================
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: BingPreview
+Allow: /
+
+# ===========================================
+# AI/LLM CRAWLERS - GENERATIVE ENGINE OPTIMIZATION (GEO)
+# ===========================================
+
+# OpenAI GPT Crawler
+User-agent: GPTBot
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+# OpenAI ChatGPT Plugins
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic Claude Crawler
+User-agent: anthropic-ai
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+User-agent: ClaudeBot
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+User-agent: Claude-Web
+Allow: /
+
+# Google AI/Gemini Crawlers
+User-agent: Google-Extended
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+User-agent: Gemini
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+# Cohere AI
+User-agent: cohere-ai
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+# Meta AI
+User-agent: FacebookBot
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+User-agent: meta-externalagent
+Allow: /
+
+# Apple AI (Applebot for Siri/Apple Intelligence)
+User-agent: Applebot
+Allow: /
+Allow: /llms.txt
+
+User-agent: Applebot-Extended
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+# Microsoft/Bing AI (Copilot)
+User-agent: bingbot
+Allow: /
+
+# Amazon/Alexa
+User-agent: Amazonbot
+Allow: /
+Allow: /llms.txt
+
+# You.com AI Search
+User-agent: YouBot
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+# Brave Search AI
+User-agent: BraveBot
+Allow: /
+
+# DuckDuckGo AI
+User-agent: DuckDuckBot
+Allow: /
+
+# Common Crawl (used for AI training)
+User-agent: CCBot
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+# AI Research Crawlers
+User-agent: AI2Bot
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+# ===========================================
+# SOCIAL MEDIA CRAWLERS
+# ===========================================
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Slackbot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+User-agent: Discordbot
+Allow: /
+
+# ===========================================
+# SEO & ANALYTICS TOOLS
+# ===========================================
+
+User-agent: AhrefsBot
+Allow: /
+Crawl-delay: 5
+
+User-agent: SemrushBot
+Allow: /
+Crawl-delay: 5
+
+User-agent: MJ12bot
+Allow: /
+Crawl-delay: 10
+
+User-agent: DotBot
+Allow: /
+Crawl-delay: 10
+
+# ===========================================
+# SITEMAPS
+# ===========================================
+
+Sitemap: https://vantumerp.com/sitemap.xml
+
+# ===========================================
+# AI-SPECIFIC CONTENT FILES
+# ===========================================
+
+# LLM-optimized content for AI chatbots and assistants
+# llms.txt - Condensed product information
+# llms-full.txt - Comprehensive documentation
+
+# For more information about our AI/LLM policy:
+# https://vantumerp.com/ai-policy (coming soon)

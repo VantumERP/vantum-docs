@@ -9,23 +9,23 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-sans);
   --font-mono: var(--font-geist-mono);
-  
+
   --color-primary: var(--primary);
   --color-primary-foreground: var(--primary-foreground);
   --color-secondary: var(--secondary);
   --color-secondary-foreground: var(--secondary-foreground);
   --color-accent: var(--accent);
   --color-accent-foreground: var(--accent-foreground);
-  
+
   --color-muted: var(--muted);
   --color-muted-foreground: var(--muted-foreground);
-  
-  --color-neutral-50: #F8FAFC;
-  --color-neutral-100: #F1F5F9;
-  --color-neutral-900: #0F172A;
-  
-  --color-brand-blue: #0EA5E9;
-  
+
+  --color-neutral-50: #f8fafc;
+  --color-neutral-100: #f1f5f9;
+  --color-neutral-900: #0f172a;
+
+  --color-brand-blue: #0ea5e9;
+
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
@@ -33,33 +33,33 @@
 
 :root {
   /* Enterprise Light Theme - Vantum Red Update */
-  --background: #F8FAFC; /* Neutral 50 */
-  --foreground: #0F172A; /* Slate 900 */
+  --background: #f8fafc; /* Neutral 50 */
+  --foreground: #0f172a; /* Slate 900 */
 
-  --primary: #EF4444; /* Vantum Red (Red-500) */
-  --primary-foreground: #FFFFFF;
+  --primary: #dc2626; /* Red-600 - better contrast than Red-500 */
+  --primary-foreground: #ffffff;
 
-  --secondary: #0F172A; /* Slate 900 */
-  --secondary-foreground: #F8FAFC;
+  --secondary: #0f172a; /* Slate 900 */
+  --secondary-foreground: #f8fafc;
 
-  --card: #FFFFFF;
-  --card-foreground: #0F172A;
+  --card: #ffffff;
+  --card-foreground: #0f172a;
 
-  --popover: #FFFFFF;
-  --popover-foreground: #0F172A;
+  --popover: #ffffff;
+  --popover-foreground: #0f172a;
 
-  --muted: #F1F5F9; /* Slate 100 */
-  --muted-foreground: #64748B; /* Slate 500 */
+  --muted: #f1f5f9; /* Slate 100 */
+  --muted-foreground: #475569; /* Slate 600 - improved contrast from Slate 500 */
 
-  --accent: #FEF2F2; /* Red-50 */
-  --accent-foreground: #EF4444; /* Red-500 */
+  --accent: #fef2f2; /* Red-50 */
+  --accent-foreground: #dc2626; /* Red-600 */
 
   --destructive: 0 84.2% 60.2%;
   --destructive-foreground: 0 0% 98%;
 
-  --border: #E2E8F0; /* Slate 200 */
-  --input: #E2E8F0;
-  --ring: #EF4444; /* Red-500 */
+  --border: #e2e8f0; /* Slate 200 */
+  --input: #e2e8f0;
+  --ring: #dc2626; /* Red-600 */
 
   --radius: 0.5rem;
 }
@@ -67,32 +67,32 @@
 .dark {
   /* Dark Mode - Vantum Red Update */
   --background: #020617; /* Slate 950 */
-  --foreground: #F8FAFC;
+  --foreground: #f8fafc;
 
-  --primary: #EF4444; /* Red-500 */
-  --primary-foreground: #FFFFFF;
+  --primary: #f87171; /* Red-400 - better contrast on dark bg */
+  --primary-foreground: #0f172a; /* Dark text on light red for contrast */
 
-  --secondary: #1E293B; /* Slate 800 */
-  --secondary-foreground: #F8FAFC;
+  --secondary: #1e293b; /* Slate 800 */
+  --secondary-foreground: #f8fafc;
 
-  --card: #0F172A; /* Slate 900 */
-  --card-foreground: #F8FAFC;
+  --card: #0f172a; /* Slate 900 */
+  --card-foreground: #f8fafc;
 
-  --popover: #0F172A;
-  --popover-foreground: #F8FAFC;
+  --popover: #0f172a;
+  --popover-foreground: #f8fafc;
 
-  --muted: #1E293B; /* Slate 800 */
-  --muted-foreground: #94A3B8;
+  --muted: #1e293b; /* Slate 800 */
+  --muted-foreground: #cbd5e1; /* Slate 300 - improved contrast */
 
-  --accent: #1E293B;
-  --accent-foreground: #F8FAFC;
+  --accent: #1e293b;
+  --accent-foreground: #f8fafc;
 
   --destructive: 0 62.8% 30.6%;
   --destructive-foreground: 0 0% 98%;
 
-  --border: #1E293B;
-  --input: #1E293B;
-  --ring: #EF4444;
+  --border: #1e293b;
+  --input: #1e293b;
+  --ring: #f87171; /* Red-400 */
 }
 
 @layer base {

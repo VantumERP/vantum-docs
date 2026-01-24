@@ -1,26 +1,73 @@
 {
-  "name": "VantumERP",
+  "name": "VantumERP - Modern Distribution ERP for Enterprises",
   "short_name": "VantumERP",
-  "description": "Modern Distribution ERP for Enterprises. Built by Actaer.",
+  "description": "Distribution ERP without the legacy baggage. Inventory, Purchasing, Sales, and Replenishment unified in one modern platform. Built by Actaer for enterprises that refuse to compromise on software quality.",
   "start_url": "/",
+  "id": "/",
+  "scope": "/",
   "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "browser"],
   "background_color": "#F8FAFC",
-  "theme_color": "#EF4444",
+  "theme_color": "#DC2626",
   "orientation": "portrait-primary",
   "icons": [
     {
       "src": "/assets/logo.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
     },
     {
       "src": "/assets/logo.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ],
-  "categories": ["business", "productivity"],
-  "lang": "en-US"
+  "categories": ["business", "productivity", "utilities", "finance"],
+  "lang": "en-US",
+  "dir": "ltr",
+  "prefer_related_applications": false,
+  "screenshots": [
+    {
+      "src": "/assets/screenshot-wide.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "VantumERP Dashboard - Distribution ERP Software"
+    },
+    {
+      "src": "/assets/screenshot-narrow.png",
+      "sizes": "750x1334",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "VantumERP Mobile View"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Request Early Access",
+      "short_name": "Early Access",
+      "description": "Join the VantumERP pilot program",
+      "url": "/?action=early-access",
+      "icons": [{ "src": "/assets/logo.png", "sizes": "192x192" }]
+    }
+  ],
+  "related_applications": [],
+  "iarc_rating_id": "",
+  "edge_side_panel": {
+    "preferred_width": 400
+  }
 }
