@@ -1,0 +1,243 @@
+{
+  "metadata": {
+    "title": "VantumERP - Nowoczesny System ERP dla Dystrybucji",
+    "description": "System ERP dla dystrybucji bez przestarzałego bagażu. Magazyn, Zakupy, Sprzedaż i Uzupełnianie zapasów zintegrowane w jednej nowoczesnej platformie. Stworzony przez Actaer dla przedsiębiorstw, które nie idą na kompromisy w jakości oprogramowania."
+  },
+  "nav": {
+    "product": "Produkt",
+    "enterprise": "Dla Firm",
+    "aboutActaer": "O Actaer",
+    "getEarlyAccess": "Uzyskaj Wczesny Dostęp",
+    "toggleMenu": "Przełącz menu",
+    "features": "Funkcje",
+    "modules": "Moduły",
+    "docs": "Dokumentacja",
+    "blog": "Blog",
+    "joinWaitlist": "Dołącz do Listy Oczekujących"
+  },
+  "hero": {
+    "badge": "Przyjmujemy partnerów pilotażowych na 2026",
+    "titleLine1": "ERP dla Dystrybucji",
+    "titleLine2": "bez przestarzałego bagażu.",
+    "description": "Magazyn, Zakupy, Sprzedaż i Uzupełnianie zapasów—zintegrowane w jednej nowoczesnej platformie. Stworzone dla przedsiębiorstw, które nie idą na kompromisy w jakości oprogramowania.",
+    "requestAccess": "Poproś o Wczesny Dostęp",
+    "designedFor": "Zaprojektowane dla firm dystrybucyjnych",
+    "wholesalers": "Hurtownie",
+    "distributors": "Dystrybutorzy",
+    "retailChains": "Sieci Detaliczne",
+    "thirdPartyLogistics": "Operatorzy 3PL"
+  },
+  "modules": {
+    "sectionLabel": "Główne Moduły",
+    "title": "Cztery filary. Jeden zintegrowany system.",
+    "description": "Każdy moduł jest zaprojektowany do samodzielnego działania—ale razem tworzą operacyjną potęgę.",
+    "inventory": {
+      "title": "Zarządzanie Magazynem",
+      "description": "Widoczność stanów w czasie rzeczywistym w nieograniczonej liczbie magazynów i lokalizacji. Śledź każdy SKU z precyzją—od przyjęcia przez regał do klienta.",
+      "tags": {
+        "multiWarehouse": "Multi-magazyn",
+        "lotTracking": "Śledzenie partii",
+        "serialNumbers": "Numery seryjne",
+        "binLocations": "Lokalizacje bin"
+      }
+    },
+    "sales": {
+      "title": "Zamówienia Sprzedaży",
+      "description": "Przepływ pracy od oferty do płatności ze sprawdzaniem dostępności w czasie rzeczywistym. Automatyczna rezerwacja zapasów przy potwierdzeniu zamówienia."
+    },
+    "purchasing": {
+      "title": "Zakupy",
+      "description": "Zarządzanie dostawcami z automatyzacją zamówień zakupu. Śledź czasy dostaw, koszty i przyjęcia—wszystko w jednym miejscu."
+    },
+    "replenishment": {
+      "title": "Inteligentne Uzupełnianie",
+      "description": "Obliczanie punktów zamawiania wspomagane AI. Automatyczne generowanie zamówień zakupu na podstawie szybkości sprzedaży, czasów dostaw i zapasów bezpieczeństwa.",
+      "analyze": "Analizuj",
+      "suggest": "Sugeruj",
+      "optimize": "Optymalizuj"
+    }
+  },
+  "metrics": {
+    "implementation": {
+      "value": "10x",
+      "label": "Szybsza implementacja",
+      "description": "vs tradycyjne ERP"
+    },
+    "api": {
+      "value": "100%",
+      "label": "Pokrycie API",
+      "description": "Każda funkcja dostępna"
+    },
+    "fees": {
+      "value": "0",
+      "label": "Ukrytych opłat",
+      "description": "Przejrzyste ceny"
+    },
+    "users": {
+      "value": "∞",
+      "label": "Użytkowników",
+      "description": "Brak licencji per-seat"
+    }
+  },
+  "whyVantum": {
+    "sectionLabel": "Różnica Vantum",
+    "title": "ERP bez korporacyjnego bagażu.",
+    "description": "Starsze systemy ERP zostały zbudowane dla innej ery. My budujemy dla firm, które oczekują, że oprogramowanie po prostu działa.",
+    "legacyERP": "Starsze ERP",
+    "vantumERP": "VantumERP",
+    "comparison": {
+      "implementation": {
+        "legacy": "Implementacje 6-18 miesięcy",
+        "vantum": "Tygodnie, nie miesiące"
+      },
+      "pricing": {
+        "legacy": "Licencje per-seat, które skalują się przeciwko Tobie",
+        "vantum": "Przewidywalne ceny, które skalują się z Tobą"
+      },
+      "changes": {
+        "legacy": "Konsultanci wymagani przy każdej zmianie",
+        "vantum": "Konfiguracja samoobsługowa"
+      },
+      "ux": {
+        "legacy": "Dziesięcioletni UX ze stromą krzywą uczenia",
+        "vantum": "Nowoczesny interfejs, którego Twój zespół faktycznie będzie używać"
+      },
+      "architecture": {
+        "legacy": "Architektura monolityczna, wolne aktualizacje",
+        "vantum": "Modułowy design, ciągłe wdrażanie"
+      }
+    },
+    "quote": "Zbudowaliśmy Vantum, bo mieliśmy dość tłumaczenia, dlaczego",
+    "quoteContinued": "oprogramowanie dla firm musi być tak bolesne.",
+    "quoteAuthor": "— Zespół Vantum"
+  },
+  "trust": {
+    "sectionLabel": "Gotowe dla Przedsiębiorstw",
+    "title": "Zbudowane na fundamentach, którym możesz zaufać.",
+    "description": "Bezpieczeństwo, wydajność i niezawodność to nie funkcje—to wymagania. Wbudowaliśmy je w każdą warstwę.",
+    "capabilities": {
+      "security": {
+        "title": "Bezpieczeństwo Korporacyjne",
+        "description": "Kontrola dostępu oparta na rolach, logowanie audytu i szyfrowanie danych w spoczynku i w tranzycie."
+      },
+      "architecture": {
+        "title": "Nowoczesna Architektura",
+        "description": "Zbudowane na .NET 10 i React 19 ze wzorcami sterowanymi zdarzeniami i CQRS."
+      },
+      "performance": {
+        "title": "Wydajność na Pierwszym Miejscu",
+        "description": "Czasy odpowiedzi poniżej sekundy nawet przy milionach transakcji."
+      },
+      "sovereignty": {
+        "title": "Suwerenność Danych",
+        "description": "Wdróż na swojej infrastrukturze lub naszej zarządzanej chmurze. Twoje dane, Twoje zasady."
+      },
+      "api": {
+        "title": "Kompletne API",
+        "description": "Każda funkcja dostępna przez REST API. Buduj integracje na swoich warunkach."
+      },
+      "database": {
+        "title": "Natywny PostgreSQL",
+        "description": "Sprawdzona w boju baza danych z udowodnioną niezawodnością i skalowalnością."
+      }
+    },
+    "poweredBy": "Napędzane przez"
+  },
+  "cta": {
+    "pilotBadge": "Ograniczony Program Pilotażowy",
+    "title": "Gotowy do modernizacji swoich",
+    "titleLine2": "operacji dystrybucyjnych?",
+    "description": "Przyjmujemy wybraną grupę przedsiębiorstw do naszego programu pilotażowego na 2026. Uzyskaj wczesny dostęp, priorytetowe wsparcie i wpływaj na roadmapę produktu.",
+    "benefits": {
+      "onboarding": "Priorytetowe wdrożenie",
+      "engineering": "Bezpośredni dostęp do inżynierów",
+      "pricing": "Preferencyjna cena"
+    },
+    "requestAccess": "Poproś o Wczesny Dostęp",
+    "noCommitment": "Bez zobowiązań. Skontaktujemy się w ciągu 24 godzin."
+  },
+  "earlyAccessModal": {
+    "title": "Poproś o Wczesny Dostęp",
+    "description": "Dołącz do naszego programu pilotażowego. Skontaktujemy się w ciągu 24 godzin.",
+    "successTitle": "Prośba Otrzymana!",
+    "successMessage": "Dziękujemy za zainteresowanie. Wkrótce się skontaktujemy.",
+    "form": {
+      "fullName": "Imię i Nazwisko",
+      "fullNamePlaceholder": "Jan Kowalski",
+      "businessEmail": "Email Firmowy",
+      "businessEmailPlaceholder": "jan@firma.pl",
+      "companyName": "Nazwa Firmy",
+      "companyNamePlaceholder": "Firma Sp. z o.o.",
+      "employees": "Liczba Pracowników",
+      "employeesPlaceholder": "Wybierz...",
+      "employeesLessThan50": "< 50",
+      "employees50To200": "50 - 200",
+      "employeesMoreThan200": "200+",
+      "submitRequest": "Wyślij Prośbę"
+    }
+  },
+  "footer": {
+    "tagline": "ERP dla dystrybucji dla nowoczesnych przedsiębiorstw. Zbudowane z dbałością.",
+    "productBy": "Produkt firmy",
+    "product": "Produkt",
+    "inventory": "Magazyn",
+    "purchasing": "Zakupy",
+    "sales": "Sprzedaż",
+    "replenishment": "Uzupełnianie",
+    "company": "Firma",
+    "aboutActaer": "O Actaer",
+    "legal": "Prawne",
+    "privacyPolicy": "Polityka Prywatności",
+    "termsOfService": "Regulamin",
+    "security": "Bezpieczeństwo",
+    "copyright": "© {year} VantumERP. Wszelkie prawa zastrzeżone.",
+    "builtBy": "Zbudowane z",
+    "byActaer": "przez Actaer",
+    "resources": "Zasoby",
+    "documentation": "Dokumentacja",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "features": "Funkcje",
+    "modules": "Moduły",
+    "releaseNotes": "Historia Wersji",
+    "erpForScale": "Korporacyjne ERP dla dystrybucji zbudowane do skalowania."
+  },
+  "languageSwitcher": {
+    "label": "Język",
+    "selectLanguage": "Wybierz język"
+  },
+  "cookieConsent": {
+    "title": "Używamy plików cookie",
+    "description": "Używamy plików cookie, aby poprawić Twoje doświadczenie przeglądania, analizować ruch na stronie i personalizować treści. Możesz wybrać, które pliki cookie akceptujesz.",
+    "learnMore": "Dowiedz się więcej",
+    "acceptAll": "Zaakceptuj Wszystkie",
+    "acceptNecessary": "Tylko Niezbędne",
+    "customize": "Dostosuj",
+    "preferencesTitle": "Preferencje Plików Cookie",
+    "preferencesDescription": "Zarządzaj swoimi preferencjami plików cookie poniżej. Możesz włączać lub wyłączać różne typy plików cookie.",
+    "cookiePolicy": "Polityka Plików Cookie",
+    "savePreferences": "Zapisz Preferencje",
+    "manageCookies": "Zarządzaj Plikami Cookie",
+    "categories": {
+      "necessary": {
+        "title": "Niezbędne",
+        "description": "Niezbędne pliki cookie wymagane do podstawowej funkcjonalności strony. Nie można ich wyłączyć."
+      },
+      "analytics": {
+        "title": "Analityczne",
+        "description": "Pomagają nam zrozumieć, jak odwiedzający korzystają z naszej strony, zbierając anonimowe informacje."
+      },
+      "marketing": {
+        "title": "Marketingowe",
+        "description": "Używane do dostarczania spersonalizowanych reklam i śledzenia skuteczności kampanii marketingowych."
+      }
+    }
+  },
+  "legal": {
+    "backToHome": "Powrót do Strony Głównej",
+    "lastUpdated": "Ostatnia aktualizacja",
+    "privacyPolicy": "Polityka Prywatności",
+    "cookiePolicy": "Polityka Plików Cookie",
+    "termsOfService": "Regulamin"
+  }
+}
