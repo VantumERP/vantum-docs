@@ -239,5 +239,90 @@
     "privacyPolicy": "Polityka Prywatności",
     "cookiePolicy": "Polityka Plików Cookie",
     "termsOfService": "Regulamin"
+  },
+  "earlyAccessPage": {
+    "metadata": {
+      "title": "Poproś o Wczesny Dostęp - VantumERP",
+      "description": "Dołącz do naszego programu pilotażowego 2026. Uzyskaj wczesny dostęp do VantumERP, priorytetowe wsparcie i pomóż kształtować przyszłość ERP dla dystrybucji."
+    },
+    "badge": "Ograniczony Program Pilotażowy",
+    "title": "Dołącz do przyszłości",
+    "titleHighlight": "ERP dla dystrybucji.",
+    "description": "Wybieramy ograniczoną liczbę przedsiębiorstw do naszego programu pilotażowego 2026. Wypróbuj VantumERP przed ogólną dostępnością.",
+    "benefits": {
+      "title": "Korzyści programu pilotażowego",
+      "priorityOnboarding": {
+        "title": "Priorytetowe Wdrożenie",
+        "description": "Dedykowane wsparcie implementacyjne od pierwszego dnia."
+      },
+      "directAccess": {
+        "title": "Bezpośredni Dostęp do Inżynierów",
+        "description": "Pracuj bezpośrednio z naszym zespołem produktowym nad funkcjami."
+      },
+      "preferredPricing": {
+        "title": "Preferencyjna Cena",
+        "description": "Zablokuj przyjazne dla założycieli ceny przed publicznym uruchomieniem."
+      }
+    },
+    "form": {
+      "title": "Zarezerwuj swoje miejsce",
+      "description": "Wypełnij poniższy formularz, a skontaktujemy się z Tobą w ciągu 24 godzin.",
+      "fullName": "Imię i Nazwisko",
+      "fullNamePlaceholder": "Jan Kowalski",
+      "businessEmail": "Email Firmowy",
+      "businessEmailPlaceholder": "jan@firma.pl",
+      "companyName": "Nazwa Firmy",
+      "companyNamePlaceholder": "Firma Sp. z o.o.",
+      "employees": "Liczba Pracowników",
+      "employeesPlaceholder": "Wybierz...",
+      "employeesLessThan50": "< 50",
+      "employees50To200": "50 - 200",
+      "employeesMoreThan200": "200+",
+      "currentErp": "Obecny System ERP",
+      "currentErpPlaceholder": "Wybierz...",
+      "currentErpOptions": {
+        "sap": "SAP",
+        "oracle": "Oracle",
+        "dynamics": "Microsoft Dynamics",
+        "odoo": "Odoo",
+        "custom": "Własny / Wewnętrzny",
+        "other": "Inny",
+        "none": "Brak"
+      },
+      "message": "Dodatkowe Uwagi",
+      "messagePlaceholder": "Opowiedz nam o swoich operacjach dystrybucyjnych, obecnych wyzwaniach lub pytaniach...",
+      "submit": "Poproś o Wczesny Dostęp",
+      "submitting": "Wysyłanie..."
+    },
+    "trust": {
+      "title": "Zbudowane na korporacyjnych fundamentach",
+      "uptime": "99.9% SLA Dostępności",
+      "support": "Wsparcie 24/7"
+    },
+    "backToHome": "Powrót do Strony Głównej"
+  },
+  "thankYouPage": {
+    "metadata": {
+      "title": "Dziękujemy - VantumERP",
+      "description": "Twoja prośba o wczesny dostęp została otrzymana. Skontaktujemy się w ciągu 24 godzin."
+    },
+    "title": "Jesteś na liście!",
+    "description": "Dziękujemy za zainteresowanie VantumERP. Otrzymaliśmy Twoją prośbę i skontaktujemy się w ciągu 24 godzin.",
+    "nextSteps": {
+      "title": "Co dalej?",
+      "step1": {
+        "title": "Przegląd",
+        "description": "Nasz zespół przejrzy Twoją aplikację w ciągu 24 godzin."
+      },
+      "step2": {
+        "title": "Rozmowa Odkrywcza",
+        "description": "Umówimy krótką rozmowę, aby zrozumieć Twoje potrzeby."
+      },
+      "step3": {
+        "title": "Wdrożenie Pilotażowe",
+        "description": "Jeśli będzie dopasowanie, rozpoczniemy Twoje spersonalizowane wdrożenie."
+      }
+    },
+    "backToHome": "Powrót do Strony Głównej"
   }
 }

@@ -176,6 +176,7 @@ export async function generateMetadata({
         es: `${siteConfig.url}/es`,
         fr: `${siteConfig.url}/fr`,
         pt: `${siteConfig.url}/pt`,
+        pl: `${siteConfig.url}/pl`,
       },
     },
     category: "technology",

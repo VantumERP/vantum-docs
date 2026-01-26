@@ -11,6 +11,7 @@ VantumERP is a cloud-native, API-first ERP platform that unifies inventory manag
 - **Product Name:** VantumERP
 - **Company:** Actaer
 - **Website:** https://vantumerp.com
+- **Early Access:** https://vantumerp.com/early-access
 - **Parent Company Website:** https://www.actaer.com
 - **Industry:** Enterprise Software, ERP, Distribution Technology
 - **Founded:** 2024

@@ -33,7 +33,12 @@ export function LanguageSwitcher() {
           {localeFlags[locale as Locale]} {localeNames[locale as Locale]}
         </SelectValue>
       </SelectTrigger>
-      <SelectContent position="popper" align="end" sideOffset={8}>
+      <SelectContent
+        position="popper"
+        align="end"
+        sideOffset={8}
+        className="bg-background border border-border"
+      >
         {locales.map((loc) => (
           <SelectItem key={loc} value={loc}>
             <span className="flex items-center gap-2">

@@ -6,6 +6,7 @@ import {
   MetricsSection,
   WhyVantumSection,
   TrustSection,
+  FAQSection,
   CTASection,
   SiteFooter,
 } from "@/components/landing";
@@ -33,6 +34,7 @@ export default async function HomePage({ params }: Props) {
           <MetricsSection />
           <WhyVantumSection />
           <TrustSection />
+          <FAQSection />
           <CTASection />
         </article>
       </main>

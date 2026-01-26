@@ -29,8 +29,8 @@ export function TechnologySection() {
             description="SLA-ready architecture with built-in redundancy"
           />
           <EnterpriseFeature
-            title="SOC 2 Ready"
-            description="Security controls for enterprise compliance"
+            title="GDPR Compliant"
+            description="Privacy-first data handling practices"
           />
           <EnterpriseFeature
             title="Global Scale"

@@ -3,7 +3,7 @@
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
-import { EarlyAccessModal } from "@/components/landing/cta";
+import { Link } from "@/i18n/navigation";
 import { useTranslations } from "next-intl";
 
 export function HeroSection() {
@@ -77,7 +77,7 @@ export function HeroSection() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="flex flex-col sm:flex-row items-center justify-center gap-4"
           >
-            <EarlyAccessModal>
+            <Link href="/early-access">
               <Button
                 size="lg"
                 className="h-14 px-8 text-base font-semibold shadow-lg shadow-primary/25 hover:shadow-xl hover:shadow-primary/30 transition-all"
@@ -86,7 +86,7 @@ export function HeroSection() {
                 {t("requestAccess")}
                 <ArrowRight className="ml-2 h-4 w-4" aria-hidden="true" />
               </Button>
-            </EarlyAccessModal>
+            </Link>
           </motion.div>
 
           {/* Trust indicators */}

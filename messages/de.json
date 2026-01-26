@@ -239,5 +239,90 @@
     "privacyPolicy": "Datenschutzrichtlinie",
     "cookiePolicy": "Cookie-Richtlinie",
     "termsOfService": "Nutzungsbedingungen"
+  },
+  "earlyAccessPage": {
+    "metadata": {
+      "title": "Frühzugang anfordern - VantumERP",
+      "description": "Treten Sie unserem Pilotprogramm 2026 bei. Erhalten Sie frühzeitigen Zugang zu VantumERP, prioritären Support und helfen Sie, die Zukunft des Distributions-ERP zu gestalten."
+    },
+    "badge": "Begrenztes Pilotprogramm",
+    "title": "Werden Sie Teil der Zukunft des",
+    "titleHighlight": "Distributions-ERP.",
+    "description": "Wir wählen eine begrenzte Anzahl von Unternehmen für unser Pilotprogramm 2026 aus. Testen Sie VantumERP vor der allgemeinen Verfügbarkeit.",
+    "benefits": {
+      "title": "Vorteile des Pilotprogramms",
+      "priorityOnboarding": {
+        "title": "Prioritäres Onboarding",
+        "description": "Dedizierte Implementierungsunterstützung vom ersten Tag an."
+      },
+      "directAccess": {
+        "title": "Direkter Zugang zum Engineering",
+        "description": "Arbeiten Sie direkt mit unserem Produktteam an der Gestaltung von Funktionen."
+      },
+      "preferredPricing": {
+        "title": "Vorzugspreise",
+        "description": "Sichern Sie sich gründerfreundliche Preise vor dem öffentlichen Start."
+      }
+    },
+    "form": {
+      "title": "Reservieren Sie Ihren Platz",
+      "description": "Füllen Sie das Formular aus und wir melden uns innerhalb von 24 Stunden.",
+      "fullName": "Vollständiger Name",
+      "fullNamePlaceholder": "Max Mustermann",
+      "businessEmail": "Geschäftliche E-Mail",
+      "businessEmailPlaceholder": "max@unternehmen.de",
+      "companyName": "Firmenname",
+      "companyNamePlaceholder": "Muster GmbH",
+      "employees": "Anzahl der Mitarbeiter",
+      "employeesPlaceholder": "Auswählen...",
+      "employeesLessThan50": "< 50",
+      "employees50To200": "50 - 200",
+      "employeesMoreThan200": "200+",
+      "currentErp": "Aktuelles ERP-System",
+      "currentErpPlaceholder": "Auswählen...",
+      "currentErpOptions": {
+        "sap": "SAP",
+        "oracle": "Oracle",
+        "dynamics": "Microsoft Dynamics",
+        "odoo": "Odoo",
+        "custom": "Eigenentwicklung / Intern",
+        "other": "Andere",
+        "none": "Keines"
+      },
+      "message": "Zusätzliche Anmerkungen",
+      "messagePlaceholder": "Erzählen Sie uns von Ihren Distributionsabläufen, aktuellen Herausforderungen oder Fragen...",
+      "submit": "Frühzugang anfordern",
+      "submitting": "Wird gesendet..."
+    },
+    "trust": {
+      "title": "Auf Unternehmensfundamenten aufgebaut",
+      "uptime": "99,9% Verfügbarkeits-SLA",
+      "support": "24/7 Support"
+    },
+    "backToHome": "Zurück zur Startseite"
+  },
+  "thankYouPage": {
+    "metadata": {
+      "title": "Vielen Dank - VantumERP",
+      "description": "Ihre Frühzugangsanfrage wurde erhalten. Wir melden uns innerhalb von 24 Stunden."
+    },
+    "title": "Sie sind auf der Liste!",
+    "description": "Vielen Dank für Ihr Interesse an VantumERP. Wir haben Ihre Anfrage erhalten und werden uns innerhalb von 24 Stunden melden.",
+    "nextSteps": {
+      "title": "Was passiert als nächstes?",
+      "step1": {
+        "title": "Überprüfung",
+        "description": "Unser Team wird Ihre Bewerbung innerhalb von 24 Stunden prüfen."
+      },
+      "step2": {
+        "title": "Kennlerngespräch",
+        "description": "Wir vereinbaren ein kurzes Gespräch, um Ihre Anforderungen zu verstehen."
+      },
+      "step3": {
+        "title": "Pilot-Onboarding",
+        "description": "Bei guter Passung beginnen wir Ihr personalisiertes Onboarding."
+      }
+    },
+    "backToHome": "Zurück zur Startseite"
   }
 }

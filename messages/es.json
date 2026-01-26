@@ -239,5 +239,90 @@
     "privacyPolicy": "Política de privacidad",
     "cookiePolicy": "Política de cookies",
     "termsOfService": "Términos de servicio"
+  },
+  "earlyAccessPage": {
+    "metadata": {
+      "title": "Solicitar Acceso Anticipado - VantumERP",
+      "description": "Únete a nuestro programa piloto 2026. Obtén acceso anticipado a VantumERP, soporte prioritario y ayuda a dar forma al futuro del ERP de distribución."
+    },
+    "badge": "Programa Piloto Limitado",
+    "title": "Únete al futuro del",
+    "titleHighlight": "ERP de distribución.",
+    "description": "Estamos seleccionando un número limitado de empresas para nuestro programa piloto 2026. Experimenta VantumERP antes de la disponibilidad general.",
+    "benefits": {
+      "title": "Beneficios del programa piloto",
+      "priorityOnboarding": {
+        "title": "Incorporación Prioritaria",
+        "description": "Soporte de implementación dedicado desde el primer día."
+      },
+      "directAccess": {
+        "title": "Acceso Directo a Ingeniería",
+        "description": "Trabaja directamente con nuestro equipo de producto para dar forma a las funciones."
+      },
+      "preferredPricing": {
+        "title": "Precios Preferenciales",
+        "description": "Asegura precios amigables para fundadores antes del lanzamiento público."
+      }
+    },
+    "form": {
+      "title": "Reserva tu lugar",
+      "description": "Completa el formulario y te contactaremos en 24 horas.",
+      "fullName": "Nombre Completo",
+      "fullNamePlaceholder": "Juan García",
+      "businessEmail": "Correo Empresarial",
+      "businessEmailPlaceholder": "juan@empresa.com",
+      "companyName": "Nombre de la Empresa",
+      "companyNamePlaceholder": "Empresa S.A.",
+      "employees": "Número de Empleados",
+      "employeesPlaceholder": "Seleccionar...",
+      "employeesLessThan50": "< 50",
+      "employees50To200": "50 - 200",
+      "employeesMoreThan200": "200+",
+      "currentErp": "Sistema ERP Actual",
+      "currentErpPlaceholder": "Seleccionar...",
+      "currentErpOptions": {
+        "sap": "SAP",
+        "oracle": "Oracle",
+        "dynamics": "Microsoft Dynamics",
+        "odoo": "Odoo",
+        "custom": "Personalizado / Interno",
+        "other": "Otro",
+        "none": "Ninguno"
+      },
+      "message": "Notas Adicionales",
+      "messagePlaceholder": "Cuéntanos sobre tus operaciones de distribución, desafíos actuales o cualquier pregunta...",
+      "submit": "Solicitar Acceso Anticipado",
+      "submitting": "Enviando..."
+    },
+    "trust": {
+      "title": "Construido sobre fundamentos empresariales",
+      "uptime": "99.9% SLA de Disponibilidad",
+      "support": "Soporte 24/7"
+    },
+    "backToHome": "Volver al Inicio"
+  },
+  "thankYouPage": {
+    "metadata": {
+      "title": "Gracias - VantumERP",
+      "description": "Tu solicitud de acceso anticipado ha sido recibida. Te contactaremos en 24 horas."
+    },
+    "title": "¡Estás en la lista!",
+    "description": "Gracias por tu interés en VantumERP. Hemos recibido tu solicitud y te contactaremos en 24 horas.",
+    "nextSteps": {
+      "title": "¿Qué sigue?",
+      "step1": {
+        "title": "Revisión",
+        "description": "Nuestro equipo revisará tu solicitud en 24 horas."
+      },
+      "step2": {
+        "title": "Llamada de Descubrimiento",
+        "description": "Programaremos una breve llamada para entender tus necesidades."
+      },
+      "step3": {
+        "title": "Incorporación Piloto",
+        "description": "Si es una buena opción, comenzaremos tu incorporación personalizada."
+      }
+    },
+    "backToHome": "Volver al Inicio"
   }
 }

@@ -239,5 +239,90 @@
     "privacyPolicy": "Politika privatnosti",
     "cookiePolicy": "Politika kolačića",
     "termsOfService": "Uslovi korišćenja"
+  },
+  "earlyAccessPage": {
+    "metadata": {
+      "title": "Zatražite Rani Pristup - VantumERP",
+      "description": "Pridružite se našem pilot programu 2026. Dobijte rani pristup VantumERP-u, prioritetnu podršku i pomozite u oblikovanju budućnosti ERP-a za distribuciju."
+    },
+    "badge": "Ograničen Pilot Program",
+    "title": "Pridružite se budućnosti",
+    "titleHighlight": "ERP-a za distribuciju.",
+    "description": "Biramo ograničen broj preduzeća za naš pilot program 2026. Isprobajte VantumERP pre opšte dostupnosti.",
+    "benefits": {
+      "title": "Prednosti pilot programa",
+      "priorityOnboarding": {
+        "title": "Prioritetno Uvođenje",
+        "description": "Posvećena podrška za implementaciju od prvog dana."
+      },
+      "directAccess": {
+        "title": "Direktan Pristup Inženjerima",
+        "description": "Radite direktno sa našim produktnim timom na oblikovanju funkcija."
+      },
+      "preferredPricing": {
+        "title": "Povlašćene Cene",
+        "description": "Osigurajte povoljne cene pre javnog lansiranja."
+      }
+    },
+    "form": {
+      "title": "Rezervišite svoje mesto",
+      "description": "Popunite formular i javićemo vam se u roku od 24 sata.",
+      "fullName": "Puno Ime",
+      "fullNamePlaceholder": "Petar Petrović",
+      "businessEmail": "Poslovni Email",
+      "businessEmailPlaceholder": "petar@kompanija.rs",
+      "companyName": "Naziv Kompanije",
+      "companyNamePlaceholder": "Kompanija d.o.o.",
+      "employees": "Broj Zaposlenih",
+      "employeesPlaceholder": "Izaberite...",
+      "employeesLessThan50": "< 50",
+      "employees50To200": "50 - 200",
+      "employeesMoreThan200": "200+",
+      "currentErp": "Trenutni ERP Sistem",
+      "currentErpPlaceholder": "Izaberite...",
+      "currentErpOptions": {
+        "sap": "SAP",
+        "oracle": "Oracle",
+        "dynamics": "Microsoft Dynamics",
+        "odoo": "Odoo",
+        "custom": "Prilagođen / Interni",
+        "other": "Drugi",
+        "none": "Nijedan"
+      },
+      "message": "Dodatne Napomene",
+      "messagePlaceholder": "Recite nam o vašim distributivnim operacijama, trenutnim izazovima ili pitanjima...",
+      "submit": "Zatražite Rani Pristup",
+      "submitting": "Slanje..."
+    },
+    "trust": {
+      "title": "Izgrađeno na korporativnim temeljima",
+      "uptime": "99.9% SLA Dostupnosti",
+      "support": "Podrška 24/7"
+    },
+    "backToHome": "Nazad na Početnu"
+  },
+  "thankYouPage": {
+    "metadata": {
+      "title": "Hvala Vam - VantumERP",
+      "description": "Vaš zahtev za rani pristup je primljen. Javićemo vam se u roku od 24 sata."
+    },
+    "title": "Na listi ste!",
+    "description": "Hvala vam na interesovanju za VantumERP. Primili smo vaš zahtev i javićemo vam se u roku od 24 sata.",
+    "nextSteps": {
+      "title": "Šta sledi?",
+      "step1": {
+        "title": "Pregled",
+        "description": "Naš tim će pregledati vašu prijavu u roku od 24 sata."
+      },
+      "step2": {
+        "title": "Upoznavajući Poziv",
+        "description": "Zakazaćemo kratak poziv da razumemo vaše potrebe."
+      },
+      "step3": {
+        "title": "Pilot Uvođenje",
+        "description": "Ako bude dobro usklađeno, započećemo vaše personalizovano uvođenje."
+      }
+    },
+    "backToHome": "Nazad na Početnu"
   }
 }

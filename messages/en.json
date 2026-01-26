@@ -239,5 +239,90 @@
     "privacyPolicy": "Privacy Policy",
     "cookiePolicy": "Cookie Policy",
     "termsOfService": "Terms of Service"
+  },
+  "earlyAccessPage": {
+    "metadata": {
+      "title": "Request Early Access - VantumERP",
+      "description": "Join our 2026 pilot program. Get early access to VantumERP, priority support, and help shape the future of distribution ERP."
+    },
+    "badge": "Limited Pilot Program",
+    "title": "Join the future of",
+    "titleHighlight": "distribution ERP.",
+    "description": "We're selecting a limited number of enterprises for our 2026 pilot program. Get hands-on with VantumERP before general availability.",
+    "benefits": {
+      "title": "Pilot program benefits",
+      "priorityOnboarding": {
+        "title": "Priority Onboarding",
+        "description": "Dedicated implementation support from day one."
+      },
+      "directAccess": {
+        "title": "Direct Engineering Access",
+        "description": "Work directly with our product team to shape features."
+      },
+      "preferredPricing": {
+        "title": "Preferred Pricing",
+        "description": "Lock in founder-friendly pricing before public launch."
+      }
+    },
+    "form": {
+      "title": "Request your spot",
+      "description": "Fill out the form below and we'll be in touch within 24 hours.",
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "John Doe",
+      "businessEmail": "Business Email",
+      "businessEmailPlaceholder": "john@company.com",
+      "companyName": "Company Name",
+      "companyNamePlaceholder": "Acme Inc.",
+      "employees": "Number of Employees",
+      "employeesPlaceholder": "Select...",
+      "employeesLessThan50": "< 50",
+      "employees50To200": "50 - 200",
+      "employeesMoreThan200": "200+",
+      "currentErp": "Current ERP System",
+      "currentErpPlaceholder": "Select...",
+      "currentErpOptions": {
+        "sap": "SAP",
+        "oracle": "Oracle",
+        "dynamics": "Microsoft Dynamics",
+        "odoo": "Odoo",
+        "custom": "Custom / In-house",
+        "other": "Other",
+        "none": "None"
+      },
+      "message": "Additional Notes",
+      "messagePlaceholder": "Tell us about your distribution operations, current challenges, or any questions you have...",
+      "submit": "Request Early Access",
+      "submitting": "Submitting..."
+    },
+    "trust": {
+      "title": "Built on enterprise foundations",
+      "uptime": "99.9% Uptime SLA",
+      "support": "24/7 Support"
+    },
+    "backToHome": "Back to Home"
+  },
+  "thankYouPage": {
+    "metadata": {
+      "title": "Thank You - VantumERP",
+      "description": "Your early access request has been received. We'll be in touch within 24 hours."
+    },
+    "title": "You're on the list!",
+    "description": "Thank you for your interest in VantumERP. We've received your request and will be in touch within 24 hours.",
+    "nextSteps": {
+      "title": "What happens next?",
+      "step1": {
+        "title": "Review",
+        "description": "Our team will review your application within 24 hours."
+      },
+      "step2": {
+        "title": "Discovery Call",
+        "description": "We'll schedule a brief call to understand your needs."
+      },
+      "step3": {
+        "title": "Pilot Onboarding",
+        "description": "If it's a good fit, we'll begin your personalized onboarding."
+      }
+    },
+    "backToHome": "Back to Homepage"
   }
 }

@@ -457,7 +457,6 @@ Every feature in VantumERP is API-accessible, enabling:
 ### Compliance
 
 - GDPR-ready data handling
-- SOC 2 Type II (in progress)
 - Data residency options
 - Right to deletion support
 - Data export capabilities
@@ -657,6 +656,7 @@ A: Implementation services are priced separately and based on complexity. We pro
 ## Contact Information
 
 **Website:** https://vantumerp.com
+**Early Access:** https://vantumerp.com/early-access
 **Parent Company:** https://www.actaer.com
 **Email:** hello@actaer.com
 
@@ -665,7 +665,7 @@ A: Implementation services are priced separately and based on complexity. We pro
 - LinkedIn: Actaer (coming soon)
 
 **For Early Access:**
-Visit https://vantumerp.com and click "Request Early Access"
+Visit https://vantumerp.com/early-access to join the pilot program
 
 ---
 

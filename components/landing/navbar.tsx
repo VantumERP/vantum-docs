@@ -14,7 +14,6 @@ import { Menu } from "lucide-react";
 import { ModeToggle } from "@/components/mode-toggle";
 import { LanguageSwitcher } from "@/components/language-switcher";
 import { useTranslations } from "next-intl";
-import { EarlyAccessModal } from "./cta";
 
 export function SiteHeader() {
   const t = useTranslations("nav");
@@ -86,14 +85,14 @@ export function SiteHeader() {
         <div className="hidden md:flex items-center gap-2">
           <LanguageSwitcher />
           <ModeToggle />
-          <EarlyAccessModal>
+          <Link href="/early-access">
             <Button
               size="sm"
               className="font-medium rounded-full px-4 shadow-sm"
             >
               {t("getEarlyAccess")}
             </Button>
-          </EarlyAccessModal>
+          </Link>
         </div>
 
         {/* Mobile Menu */}
@@ -165,11 +164,13 @@ export function SiteHeader() {
                       <ModeToggle />
                     </div>
                   </div>
-                  <EarlyAccessModal>
-                    <Button className="w-full font-medium rounded-xl h-11">
-                      {t("getEarlyAccess")}
-                    </Button>
-                  </EarlyAccessModal>
+                  <SheetClose asChild>
+                    <Link href="/early-access" className="block">
+                      <Button className="w-full font-medium rounded-xl h-11">
+                        {t("getEarlyAccess")}
+                      </Button>
+                    </Link>
+                  </SheetClose>
                 </div>
               </div>
             </SheetContent>

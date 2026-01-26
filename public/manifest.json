@@ -61,7 +61,7 @@
       "name": "Request Early Access",
       "short_name": "Early Access",
       "description": "Join the VantumERP pilot program",
-      "url": "/?action=early-access",
+      "url": "/early-access",
       "icons": [{ "src": "/assets/logo.png", "sizes": "192x192" }]
     }
   ],

@@ -4,5 +4,6 @@ export * from "./modules-bento";
 export * from "./metrics-section";
 export * from "./why-vantum";
 export * from "./trust";
+export * from "./faq-section";
 export * from "./cta";
 export * from "./footer";
