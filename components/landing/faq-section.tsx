@@ -29,7 +29,7 @@ const faqs = [
   {
     question: "How is pricing structured?",
     answer:
-      "Vantum uses a transparent, user-based pricing model with no hidden fees. Pricing tiers are based on the number of active users, modules required, and deployment preference (cloud vs. self-hosted). Enterprise customers receive custom quotes based on their specific needs. Early adopters from our waitlist will receive exclusive founding member pricing.",
+      "Vantum offers flexible pricing models tailored to your business needs. Options include per-seat pricing or custom quotes with complex billing based on factors like transaction volume, number of orders, products managed, and other operational metrics. Enterprise customers receive customized pricing based on their specific requirements. Early adopters from our waitlist will receive exclusive founding member pricing.",
   },
   {
     question: "What support is included?",

@@ -75,8 +75,8 @@
     },
     "users": {
       "value": "∞",
-      "label": "Utilisateurs",
-      "description": "Pas de licence par siège"
+      "label": "Échelle",
+      "description": "Modèles de tarification flexibles"
     }
   },
   "whyVantum": {
@@ -91,8 +91,8 @@
         "vantum": "Des semaines, pas des mois"
       },
       "pricing": {
-        "legacy": "Licence par siège qui évolue contre vous",
-        "vantum": "Tarification prévisible qui évolue avec vous"
+        "legacy": "Tarification rigide qui évolue contre vous",
+        "vantum": "Tarification flexible adaptée à vos besoins"
       },
       "changes": {
         "legacy": "Consultants requis pour chaque changement",
@@ -261,7 +261,7 @@
       },
       "preferredPricing": {
         "title": "Tarification Préférentielle",
-        "description": "Verrouillez des tarifs avantageux avant le lancement public."
+        "description": "Verrouillez des tarifs exclusifs avantageux avant le lancement public."
       }
     },
     "form": {
