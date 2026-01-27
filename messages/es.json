@@ -75,8 +75,8 @@
     },
     "users": {
       "value": "∞",
-      "label": "Usuarios",
-      "description": "Sin licencias por usuario"
+      "label": "Escala",
+      "description": "Modelos de precios flexibles"
     }
   },
   "whyVantum": {
@@ -91,8 +91,8 @@
         "vantum": "Semanas, no meses"
       },
       "pricing": {
-        "legacy": "Licencias por usuario que escalan en tu contra",
-        "vantum": "Precios predecibles que escalan contigo"
+        "legacy": "Precios rígidos que escalan en tu contra",
+        "vantum": "Precios flexibles adaptados a tus necesidades"
       },
       "changes": {
         "legacy": "Consultores requeridos para cada cambio",
@@ -261,7 +261,7 @@
       },
       "preferredPricing": {
         "title": "Precios Preferenciales",
-        "description": "Asegura precios amigables para fundadores antes del lanzamiento público."
+        "description": "Asegura tarifas exclusivas amigables para fundadores antes del lanzamiento público."
       }
     },
     "form": {
