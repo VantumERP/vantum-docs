@@ -75,8 +75,8 @@
     },
     "users": {
       "value": "∞",
-      "label": "Użytkowników",
-      "description": "Brak licencji per-seat"
+      "label": "Skala",
+      "description": "Elastyczne modele cenowe"
     }
   },
   "whyVantum": {
@@ -91,8 +91,8 @@
         "vantum": "Tygodnie, nie miesiące"
       },
       "pricing": {
-        "legacy": "Licencje per-seat, które skalują się przeciwko Tobie",
-        "vantum": "Przewidywalne ceny, które skalują się z Tobą"
+        "legacy": "Sztywne ceny, które skalują się przeciwko Tobie",
+        "vantum": "Elastyczne ceny dostosowane do Twoich potrzeb"
       },
       "changes": {
         "legacy": "Konsultanci wymagani przy każdej zmianie",
@@ -261,7 +261,7 @@
       },
       "preferredPricing": {
         "title": "Preferencyjna Cena",
-        "description": "Zablokuj przyjazne dla założycieli ceny przed publicznym uruchomieniem."
+        "description": "Zablokuj ekskluzywne, przyjazne dla założycieli stawki przed publicznym uruchomieniem."
       }
     },
     "form": {

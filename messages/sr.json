@@ -75,8 +75,8 @@
     },
     "users": {
       "value": "∞",
-      "label": "Korisnika",
-      "description": "Bez licenciranja po korisniku"
+      "label": "Skala",
+      "description": "Fleksibilni cenovni modeli"
     }
   },
   "whyVantum": {
@@ -91,8 +91,8 @@
         "vantum": "Nedelje, ne meseci"
       },
       "pricing": {
-        "legacy": "Licenciranje po korisniku koje raste protiv vas",
-        "vantum": "Predvidive cene koje rastu sa vama"
+        "legacy": "Krute cene koje rastu protiv vas",
+        "vantum": "Fleksibilne cene prilagođene vašim potrebama"
       },
       "changes": {
         "legacy": "Konsultanti potrebni za svaku promenu",
@@ -261,7 +261,7 @@
       },
       "preferredPricing": {
         "title": "Povlašćene Cene",
-        "description": "Osigurajte povoljne cene pre javnog lansiranja."
+        "description": "Osigurajte ekskluzivne povoljne cene pre javnog lansiranja."
       }
     },
     "form": {

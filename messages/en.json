@@ -75,8 +75,8 @@
     },
     "users": {
       "value": "∞",
-      "label": "Users",
-      "description": "No per-seat licensing"
+      "label": "Scale",
+      "description": "Flexible pricing models"
     }
   },
   "whyVantum": {
@@ -91,8 +91,8 @@
         "vantum": "Weeks, not months"
       },
       "pricing": {
-        "legacy": "Per-seat licensing that scales against you",
-        "vantum": "Predictable pricing that scales with you"
+        "legacy": "Rigid pricing that scales against you",
+        "vantum": "Flexible pricing tailored to your needs"
       },
       "changes": {
         "legacy": "Consultants required for every change",
@@ -261,7 +261,7 @@
       },
       "preferredPricing": {
         "title": "Preferred Pricing",
-        "description": "Lock in founder-friendly pricing before public launch."
+        "description": "Lock in exclusive founder-friendly rates before public launch."
       }
     },
     "form": {

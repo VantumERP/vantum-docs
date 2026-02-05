@@ -75,8 +75,8 @@
     },
     "users": {
       "value": "∞",
-      "label": "Benutzer",
-      "description": "Keine Pro-Benutzer-Lizenzierung"
+      "label": "Skalierung",
+      "description": "Flexible Preismodelle"
     }
   },
   "whyVantum": {
@@ -91,8 +91,8 @@
         "vantum": "Wochen, nicht Monate"
       },
       "pricing": {
-        "legacy": "Pro-Benutzer-Lizenzierung, die gegen Sie skaliert",
-        "vantum": "Vorhersehbare Preise, die mit Ihnen skalieren"
+        "legacy": "Starre Preisgestaltung, die gegen Sie skaliert",
+        "vantum": "Flexible Preise, die auf Ihre Bedürfnisse zugeschnitten sind"
       },
       "changes": {
         "legacy": "Berater für jede Änderung erforderlich",
@@ -261,7 +261,7 @@
       },
       "preferredPricing": {
         "title": "Vorzugspreise",
-        "description": "Sichern Sie sich gründerfreundliche Preise vor dem öffentlichen Start."
+        "description": "Sichern Sie sich exklusive, gründerfreundliche Konditionen vor dem öffentlichen Start."
       }
     },
     "form": {
