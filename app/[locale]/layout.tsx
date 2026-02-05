@@ -30,7 +30,7 @@ const siteConfig = {
   description:
     "Distribution ERP without the legacy baggage. Inventory, Purchasing, Sales, and Replenishment unified in one modern platform. Built by Actaer for enterprises that refuse to compromise on software quality.",
   url: "https://vantumerp.com",
-  ogImage: "/assets/logo.png",
+  ogImage: "/assets/new_logo.png",
   creator: "Actaer",
   creatorUrl: "https://www.actaer.com",
 };
@@ -130,7 +130,7 @@ export async function generateMetadata({
     icons: {
       icon: "/favicon.ico",
       shortcut: "/favicon.ico",
-      apple: "/assets/logo.png",
+      apple: "/assets/new_logo.png",
     },
     manifest: "/manifest.json",
     openGraph: {
@@ -202,7 +202,7 @@ const jsonLd = {
       operatingSystem: "Web Browser",
       description: siteConfig.description,
       url: siteConfig.url,
-      image: `${siteConfig.url}/assets/logo.png`,
+      image: `${siteConfig.url}/assets/new_logo.png`,
       screenshot: `${siteConfig.url}/assets/screenshot.png`,
       softwareVersion: "1.0",
       datePublished: "2025-01-01",
@@ -286,11 +286,11 @@ const jsonLd = {
       url: siteConfig.creatorUrl,
       logo: {
         "@type": "ImageObject",
-        url: `${siteConfig.creatorUrl}/logo.png`,
+        url: `${siteConfig.creatorUrl}/new_logo.png`,
         width: "512",
         height: "512",
       },
-      image: `${siteConfig.creatorUrl}/logo.png`,
+      image: `${siteConfig.creatorUrl}/new_logo.png`,
       description:
         "Software company focused on creating enterprise-grade applications with modern technology stacks.",
       foundingDate: "2024",

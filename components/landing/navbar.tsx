@@ -45,7 +45,7 @@ export function SiteHeader() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2.5 pl-1">
           <Image
-            src="/assets/logo.png"
+            src="/assets/new_logo.png"
             alt="VantumERP Logo"
             width={30}
             height={30}
@@ -114,7 +114,7 @@ export function SiteHeader() {
                 <div className="flex items-center justify-between p-6 pb-4 border-b border-border">
                   <div className="flex items-center gap-2.5">
                     <Image
-                      src="/assets/logo.png"
+                      src="/assets/new_logo.png"
                       alt="VantumERP Logo"
                       width={32}
                       height={32}

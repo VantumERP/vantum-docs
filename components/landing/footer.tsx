@@ -18,7 +18,7 @@ export function SiteFooter() {
           <div className="md:col-span-1">
             <Link href="/" className="inline-flex items-center gap-2">
               <Image
-                src="/assets/logo.png"
+                src="/assets/new_logo.png"
                 alt="VantumERP Logo"
                 width={28}
                 height={28}

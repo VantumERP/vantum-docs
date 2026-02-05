@@ -53,7 +53,7 @@ export default async function ThankYouPage({
         <div className="container mx-auto px-4 h-16 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2.5">
             <Image
-              src="/assets/logo.png"
+              src="/assets/new_logo.png"
               alt="VantumERP Logo"
               width={30}
               height={30}
