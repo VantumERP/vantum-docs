@@ -60,7 +60,7 @@ const nextConfig: NextConfig = {
               "style-src 'self' 'unsafe-inline'",
               "img-src 'self' data: https: blob:",
               "font-src 'self' data:",
-              "connect-src 'self' https://formspree.io https://vercel.live https://*.vercel-insights.com wss://ws-us3.pusher.com https://*.clarity.ms https://*.apollo.io",
+              "connect-src 'self' https://formspree.io https://vercel.live https://*.vercel-insights.com wss://ws-us3.pusher.com https://*.clarity.ms https://assets.apollo.io",
               "frame-ancestors 'self'",
               "base-uri 'self'",
               "form-action 'self' https://formspree.io",
