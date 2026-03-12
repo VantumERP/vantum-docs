@@ -43,3 +43,5 @@ next-env.d.ts
 
 bun.lock
 bun.lockb
+package-lock.json
+yarn.lock
